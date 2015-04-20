@@ -1,0 +1,498 @@
+/* https://drive.google.com/folderview?id=0B5IXVTOnNEsIVnlIZ2lHemRuMjg&usp=sharing */
+
+
+@font-face{ font-family: 'pnThin'; src: url('fonts/pnThin.eot'); src: url('fonts/pnThin.eot?#iefix') format('embedded-opentype'), url('fonts/pnThin.woff') format('woff'), url('fonts/pnThin.ttf') format('truetype'), url('fonts/pnThin.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'pnBold'; src: url('fonts/pnBold.eot'); src: url('fonts/pnBold.eot?#iefix') format('embedded-opentype'), url('fonts/pnBold.woff') format('woff'), url('fonts/pnBold.ttf') format('truetype'), url('fonts/pnBold.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'pnSemibold'; src: url('fonts/pnSemibold.eot'); src: url('fonts/pnSemibold.eot?#iefix') format('embedded-opentype'), url('fonts/pnSemibold.woff') format('woff'), url('fonts/pnSemibold.ttf') format('truetype'), url('fonts/pnSemibold.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'pnRegular'; src: url('fonts/pnRegular.eot'); src: url('fonts/pnRegular.eot?#iefix') format('embedded-opentype'), url('fonts/pnRegular.woff') format('woff'), url('fonts/pnRegular.ttf') format('truetype'), url('fonts/pnRegular.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'pnRegular-Italic'; src: url('fonts/pnRegular-Italic.eot'); src: url('fonts/pnRegular-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/pnRegular-Italic.woff') format('woff'), url('fonts/pnRegular-Italic.ttf') format('truetype'), url('fonts/pnRegular-Italic.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'pnCondensed-Bold'; src: url('fonts/pnCondensed-Bold.eot'); src: url('fonts/pnCondensed-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/pnCondensed-Bold.woff') format('woff'), url('fonts/pnCondensed-Bold.ttf') format('truetype'), url('fonts/pnCondensed-Bold.svg#webfont') format('svg'); }
+
+@font-face{ font-family: 'tisaMedium-Italic'; src: url('fonts/tisaMedium-Italic.eot'); src: url('fonts/tisaMedium-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/tisaMedium-Italic.woff') format('woff'), url('fonts/tisaMedium-Italic.ttf') format('truetype'), url('fonts/tisaMedium-Italic.svg#webfont') format('svg'); }
+
+
+/* Type: Headings */
+.page-title{
+
+  font-family:"pnThin";
+  color:#857f7f;
+  font-size:3.6rem;
+}
+
+.section-heading{
+
+  font-family:"pnBold";
+  color:#cfceca;
+  font-size:2.4rem;
+}
+
+.section-subheading{
+
+  font-family:"pnSemibold";
+  color:#595454;
+  font-size:1.6rem;
+  text-transform:uppercase;
+}
+
+/* Type: Copy */
+.copy{
+
+  font-family:"pnRegular";
+  color:#857f7f;
+  font-size:1.6rem;
+  line-height:2.592rem;
+}
+
+.details{
+
+  font-family:"pnRegular";
+  color:#857f7f;
+  font-size:1.4rem;
+}
+
+.alternate{
+
+  font-family: "tisaMedium-Italic";
+  color:#857f7f;
+  font-size:1.6rem;
+}
+
+.link{
+
+  color:#92bc02;
+  /* text-decoration:underline; */
+}
+
+/* Type: Misc */
+
+.error{
+
+  font-family:'pnRegular-Italic';
+  font-size:1.6rem;
+  color:#ed1c24;
+}
+
+
+
+/* Color */
+
+/* Color: Color Blocks */
+.color-block{
+
+  width:100px;
+  height:66px;
+  border:1px solid #b3b3b3;
+  border-radius:3px;
+}
+
+.color-white{ background:#fff; }
+.color-light-gray-1{ background:#f9f8f6; }
+.color-light-gray-2{ background:#f3f1ed; }
+.color-light-gray-3{ background:#edeae5; }
+.color-dark-gray{ background:#2d2c2b; }
+.color-copy-gray-1{ background:#857f7f; }
+.color-copy-gray-2{ background:#595454; }
+.color-copy-gray-3{ background:#4b4647; }
+.color-subtle-gray{ background:#cfceca; }
+.color-mobile-green{ background:#92bc02; }
+.color-dark-mobile-green{ background:#729d00; }
+.color-alert-red{ background:#ed1c24; }
+
+/* Gradients */
+.gradient-green{
+
+  background: #92bc02; /* Old browsers */
+  background: -moz-linear-gradient(top,  #92bc02 0%, #729d00 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#92bc02), color-stop(100%,#729d00)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #92bc02 0%,#729d00 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #92bc02 0%,#729d00 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #92bc02 0%,#729d00 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #92bc02 0%,#729d00 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92bc02', endColorstr='#729d00',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-gray{
+
+  background: #595454; /* Old browsers */
+  background: -moz-linear-gradient(top,  #595454 0%, #4b4646 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595454), color-stop(100%,#4b4646)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #595454 0%,#4b4646 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #595454 0%,#4b4646 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #595454 0%,#4b4646 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #595454 0%,#4b4646 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595454', endColorstr='#4b4646',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-gray:hover,
+.gradient-gray:focus,
+.gradient-gray.focus,
+.gradient-gray:active,
+.gradient-gray.active{
+  background: #232221;
+}
+
+
+
+/* Form Elements */
+.form-box{
+
+    background:#f3f1ed;
+    border-radius:3px;
+    margin:30px 0;
+}
+.form-box-header{
+
+    background:#edeae5;
+    height:50px;
+    width:100%;
+    position:relative;
+    border-radius:3px 3px 0 0;
+}
+
+.form-box-header .section-subheading{
+
+  position:absolute;
+  top:0px;
+  left:20px;
+}
+
+.form-box-content{
+
+  padding:20px;
+}
+
+.form-element{
+
+  margin-bottom:20px;
+}
+
+.formElement-label{
+
+  font-family:"pnSemibold";
+  color:#857f7f;
+  font-size:1.6rem;
+}
+
+/* add rounded corners to these form elements */
+button, input[type=text], textarea, select{
+
+  border-radius:3px;
+}
+/* make the border 1px solid gray to these form elements */
+input[type=text], textarea, select{
+
+  border:1px solid #b3b3b3;
+}
+/* give these form elements a solid white background */
+input[type=text], textarea, select{
+
+  background:#fff;
+}
+
+input[type=text], select{
+
+  height:32px;
+}
+
+textarea.formElement-text{
+
+  min-height:100px;
+}
+
+input[type=text].formElement-input,
+textarea.formElement-text{
+
+  font-family:"pnRegular";
+  /*color:#857f7f;*/
+  font-size:1.6rem;
+  padding-right:10px;
+  padding-left:10px;
+}
+textarea.formElement-text{
+
+  padding-top:4px;
+  padding-bottom:4px;
+}
+
+
+.button-large{
+
+  padding:10px 30px;
+  border:none;
+
+  font-family:"pnRegular";
+  color:#fff;
+  font-size:1.8rem;
+  text-transform:capitalize;
+}
+
+.button-medium{
+
+  padding:6px 30px;
+  border:none;
+
+  font-family:"pnRegular";
+  color:#fff;
+  font-size:1.8rem;
+  text-transform:capitalize;
+}
+.button-small{
+
+  padding:3px 15px;
+  border:none;
+
+  font-family:"pnRegular";
+  color:#fff;
+  font-size:1.6rem;
+  text-transform:capitalize;
+}
+
+.button-large:hover{
+
+    color:red;
+    background-color:rgba(0, 0, 0, 1);
+}
+
+.button-inverted-gray{
+
+  background:none;
+  border:2px solid #595454;
+  border-radius:3px;
+  color:#595454;
+  font-family:"pnSemibold";
+}
+.button-inverted-white{
+
+  background:none;
+  border:2px solid #fff;
+  border-radius:3px;
+  color:#fff;
+  font-family:"pnSemibold";
+}
+
+
+
+
+/* checkbox config */
+input[type=checkbox].formElement-checkbox {
+
+  position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].formElement-checkbox + label.formElement-checkbox-label {
+
+  padding-left:25px;
+  height:20px;
+  display:inline-block;
+  line-height:20px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  /*font-size:20px;*/
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+input[type=checkbox].formElement-checkbox:checked + label.formElement-checkbox-label {
+
+  background-position: 0 -20px;
+}
+
+label.formElement-checkbox-label {
+
+  background-image:url(images/formElement_checkbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* /END checkbox config */
+
+/* Form Element Input Text */
+input.formElement-input::-webkit-input-placeholder,
+textarea.formElement-text::-webkit-input-placeholder{
+
+  color: #b3b3b3;
+  font-family: 'pnRegular-Italic';
+  font-size:1.6rem;
+  text-transform:none;
+}
+input.formElement-input::-moz-placeholder,
+textarea.formElement-text::-moz-placeholder{
+
+  color: #b3b3b3;
+  font-family: 'pnRegular-Italic';
+  font-size:1.6rem;
+  text-transform:none;
+}
+input.formElement-input:-moz-placeholder,
+textarea.formElement-text:-moz-placeholder{
+
+  color: #b3b3b3;
+  font-family: 'pnRegular-Italic';
+  font-size:1.6rem;
+  text-transform:none;
+}
+input.formElement-input:-ms-input-placeholder,
+textarea.formElement-text:-ms-input-placeholder {
+
+  color: #b3b3b3;
+  font-family: 'pnRegular-Italic';
+  font-size:1.6rem;
+  text-transform:none;
+}
+
+
+
+/* Icons */
+.logo-provisions{
+
+  background:url('images/logo_provisions.svg') no-repeat;
+  height:16px;
+}
+
+.icon-arrow1{
+
+  height:40px;
+  width:40px;
+  background:url(images/icon_arrow1.svg) center center no-repeat;
+  /*border:1px solid #f3f1ed;*/
+}
+
+
+/* Miscellaneous */
+.sidebar{
+
+  margin-top:24px;
+}
+
+.sidebar-box{
+
+  margin-bottom:4px;
+}
+
+.sidebar-box-bar{
+
+  background:#fff;
+  padding:0 0 6px 20px;
+  cursor:pointer;
+  position:relative;
+}
+
+.sidebar-tab-label-text{
+
+  font-family: "pnSemibold";
+  color:#595454;
+  font-size:1.8rem;
+  text-transform:uppercase;
+  color:#92bc02;
+}
+
+.sidebar-button-arrow{
+
+  /*border:1px solid red;*/
+  display:inline-block;
+  position:absolute; right:10px; top:8px;
+}
+
+/*.sidebar-box-bar:hover .sidebar-button-arrow,
+.sidebar-box-bar:hover .sidebar-tab-label-text{
+
+  color:#729d00;
+}*/
+
+
+.black-trans{
+
+  background-color:rgba(0,0,0,.5);
+  height:157px;
+}
+
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+
+#header, #footer{
+
+  color:#857f7f;
+}
+
+#header{
+
+  background:url('images/content_kitchen2.jpg') center center no-repeat;
+  background-size:cover;
+  height:157px;
+}
+
+
+
+
+/* Footer stuff */
+#footer{
+
+  /* height:100%; */
+  width: 100%;
+  background:#2d2c2b;
+  height:78px;
+}
+#copyright{
+
+  padding-top:24px;
+  text-align:center;
+  line-height:1.6rem;
+}
+
+
+input[type=text].formElement-input, select, textarea.formElement-text{
+
+  min-width:100%;
+  max-width:100%;
+}
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  input[type=text].formElement-input, select, textarea.formElement-text{
+
+    min-width:75%;
+    max-width:75%;
+  }
+
+  #footer{
+
+    /* background:red; */
+  }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  #footer{
+
+    /* background:orange; */
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #footer{
+
+    /* background:green; */
+  }
+}
