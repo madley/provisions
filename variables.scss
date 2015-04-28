@@ -1,0 +1,63 @@
+/*
+  =================================
+
+    Variables
+
+  =================================
+*/
+
+//golden ratio
+$golden-ratio:1.61803398875;
+
+/*---------------------------------
+    Colors
+  ---------------------------------*/
+$color-white:#fff;
+$color-dark-gray:#2d2c2b;
+
+$color-light-gray1:#f9f8f6;
+$color-light-gray2:#f3f1ed;
+$color-light-gray3:#edeae5;
+
+$color-copy-gray1:#857f7f;
+$color-copy-gray2:#595454;
+$color-copy-gray3:#4b4647;
+
+$color-subtle-gray:#cfceca;
+
+$color-medium-gray:#b3b3b3;
+
+$color-mobile-green:#92bc02;
+$color-dark-mobile-green:#729d00;
+$color-darker-mobile-green:#576a00;
+
+$color-alert-red:#ed1c24;
+
+//black transparency, 50% opacity
+$color-black-trans:rgba(0,0,0,.5);
+
+/*---------------------------------
+    Fonts
+  ---------------------------------*/
+$font-proxima-thin:"pnThin";
+$font-proxima-regular:"pnRegular";
+$font-proxima-regular-italic:"pnRegular-Italic";
+$font-proxima-semibold:"pnSemibold";
+$font-proxima-bold:"pnBold";
+$font-proxima-condensed-bold:"pnCondensed-Bold";
+
+$font-tisa-medium-italic:"tisaMedium-Italic";
+
+//font sizes (at least the common ones)
+$font-size-small:1.4rem;
+$font-size-normal:1.6rem;
+$font-size-large:1.8rem;
+$font-size-xlarge:2.4rem;
+$font-size-huge:3.6rem;
+
+
+/*---------------------------------
+    Miscellaneous
+  ---------------------------------*/
+$border-radius-major:6px;
+$border-radius-minor:3px;

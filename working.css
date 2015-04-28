@@ -1,0 +1,561 @@
+/*
+  =================================
+
+    Variables
+
+  =================================
+*/
+/*---------------------------------
+    Colors
+  ---------------------------------*/
+/*---------------------------------
+    Fonts
+  ---------------------------------*/
+/*---------------------------------
+    Miscellaneous
+  ---------------------------------*/
+/*
+  =================================
+
+    Mixins
+
+  =================================
+*/
+/*
+  =================================
+
+    Variables
+
+  =================================
+*/
+/*---------------------------------
+    Colors
+  ---------------------------------*/
+/*---------------------------------
+    Fonts
+  ---------------------------------*/
+/*---------------------------------
+    Miscellaneous
+  ---------------------------------*/
+/* Form Elements */
+.form-box {
+  background: #f3f1ed;
+  border-radius: 3px;
+  margin: 30px 0; }
+
+.form-box-header {
+  background: #edeae5;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  border-radius: 3px 3px 0 0; }
+
+.form-box-header .section-subheading {
+  position: absolute;
+  top: 0px;
+  left: 20px; }
+
+.form-box-content {
+  padding: 20px; }
+
+.form-element {
+  margin-bottom: 20px; }
+
+.formElement-label {
+  font-family: "pnSemibold";
+  color: #857f7f;
+  font-size: 1.6rem; }
+
+/* add rounded corners to these form elements */
+button, input[type=text], textarea, select {
+  border-radius: 3px; }
+
+/* make the border 1px solid gray to these form elements */
+input[type=text], textarea, select {
+  border: 1px solid #b3b3b3; }
+
+/* give these form elements a solid white background */
+input[type=text], textarea, select {
+  background: #fff; }
+
+input[type=text], select {
+  height: 32px; }
+
+textarea.formElement-text {
+  min-height: 100px; }
+
+input[type=text].formElement-input,
+textarea.formElement-text {
+  font-family: "pnRegular";
+  /*color:#857f7f;*/
+  font-size: 1.6rem;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+textarea.formElement-text {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.button-large {
+  padding: 12px 30px;
+  border: none;
+  font-family: "pnRegular";
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-transform: capitalize; }
+
+.button-medium {
+  padding: 8px 30px;
+  border: none;
+  font-family: "pnRegular";
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-transform: capitalize; }
+
+.button-small {
+  padding: 6px 15px;
+  border: none;
+  font-family: "pnRegular";
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-transform: capitalize; }
+
+.button-inverted-gray {
+  background: none;
+  border: 2px solid #595454;
+  border-radius: 3px;
+  color: #595454;
+  font-family: "pnSemibold"; }
+
+.button-inverted-white {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "pnSemibold"; }
+
+.button-inverted-white:hover,
+.button-inverted-white:active,
+.button-inverted-gray:hover,
+.button-inverted-gray:active {
+  border-color: #92bc02;
+  color: #92bc02; }
+
+/* checkbox config */
+input[type=checkbox].formElement-checkbox {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+input[type=checkbox].formElement-checkbox + label.formElement-checkbox-label {
+  padding-left: 25px;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /*font-size:20px;*/
+  vertical-align: middle;
+  cursor: pointer; }
+
+input[type=checkbox].formElement-checkbox:checked + label.formElement-checkbox-label {
+  background-position: 0 -20px; }
+
+label.formElement-checkbox-label {
+  background-image: url(images/formElement_checkbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* /END checkbox config */
+/* Form Element Input Text */
+input.formElement-input::-webkit-input-placeholder,
+textarea.formElement-text::-webkit-input-placeholder {
+  color: #b3b3b3;
+  font-family: "pnRegular-Italic";
+  font-size: 1.6rem;
+  text-transform: none; }
+
+input.formElement-input::-moz-placeholder,
+textarea.formElement-text::-moz-placeholder {
+  color: #b3b3b3;
+  font-family: "pnRegular-Italic";
+  font-size: 1.6rem;
+  text-transform: none; }
+
+input.formElement-input:-moz-placeholder,
+textarea.formElement-text:-moz-placeholder {
+  color: #b3b3b3;
+  font-family: "pnRegular-Italic";
+  font-size: 1.6rem;
+  text-transform: none; }
+
+input.formElement-input:-ms-input-placeholder,
+textarea.formElement-text:-ms-input-placeholder {
+  color: #b3b3b3;
+  font-family: "pnRegular-Italic";
+  font-size: 1.6rem;
+  text-transform: none; }
+
+input[type=text].formElement-input, select, textarea.formElement-text {
+  min-width: 100%;
+  max-width: 100%; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  input[type=text].formElement-input, select, textarea.formElement-text {
+    min-width: 75%;
+    max-width: 75%; } }
+@font-face {
+  font-family: "pnThin";
+  src: url("fonts/pnThin.eot");
+  src: url("fonts/pnThin.eot?#iefix") format("embedded-opentype"), url("fonts/pnThin.woff") format("woff"), url("fonts/pnThin.ttf") format("truetype"), url("fonts/pnThin.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "pnRegular";
+  src: url("fonts/pnRegular.eot");
+  src: url("fonts/pnRegular.eot?#iefix") format("embedded-opentype"), url("fonts/pnRegular.woff") format("woff"), url("fonts/pnRegular.ttf") format("truetype"), url("fonts/pnRegular.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "pnRegular-Italic";
+  src: url("fonts/pnRegular-Italic.eot");
+  src: url("fonts/pnRegular-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/pnRegular-Italic.woff") format("woff"), url("fonts/pnRegular-Italic.ttf") format("truetype"), url("fonts/pnRegular-Italic.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "pnSemibold";
+  src: url("fonts/pnSemibold.eot");
+  src: url("fonts/pnSemibold.eot?#iefix") format("embedded-opentype"), url("fonts/pnSemibold.woff") format("woff"), url("fonts/pnSemibold.ttf") format("truetype"), url("fonts/pnSemibold.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "pnBold";
+  src: url("fonts/pnBold.eot");
+  src: url("fonts/pnBold.eot?#iefix") format("embedded-opentype"), url("fonts/pnBold.woff") format("woff"), url("fonts/pnBold.ttf") format("truetype"), url("fonts/pnBold.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "pnCondensed-Bold";
+  src: url("fonts/pnCondensed-Bold.eot");
+  src: url("fonts/pnCondensed-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/pnCondensed-Bold.woff") format("woff"), url("fonts/pnCondensed-Bold.ttf") format("truetype"), url("fonts/pnCondensed-Bold.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "tisaMedium-Italic";
+  src: url("fonts/tisaMedium-Italic.eot");
+  src: url("fonts/tisaMedium-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/tisaMedium-Italic.woff") format("woff"), url("fonts/tisaMedium-Italic.ttf") format("truetype"), url("fonts/tisaMedium-Italic.svg#$font-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+.color-white {
+  background: #fff; }
+
+.textcolor-white {
+  color: #fff; }
+
+.color-dark-gray {
+  background: #2d2c2b; }
+
+.textcolor-dark-gray {
+  color: #2d2c2b; }
+
+.color-light-gray1 {
+  background: #f9f8f6; }
+
+.textcolor-light-gray1 {
+  color: #f9f8f6; }
+
+.color-light-gray2 {
+  background: #f3f1ed; }
+
+.textcolor-light-gray2 {
+  color: #f3f1ed; }
+
+.color-light-gray3 {
+  background: #edeae5; }
+
+.textcolor-light-gray3 {
+  color: #edeae5; }
+
+.color-copy-gray1 {
+  background: #857f7f; }
+
+.textcolor-copy-gray1 {
+  color: #857f7f; }
+
+.color-copy-gray2 {
+  background: #595454; }
+
+.textcolor-copy-gray2 {
+  color: #595454; }
+
+.color-copy-gray3 {
+  background: #4b4647; }
+
+.textcolor-copy-gray3 {
+  color: #4b4647; }
+
+.color-subtle-gray {
+  background: #cfceca; }
+
+.textcolor-subtle-gray {
+  color: #cfceca; }
+
+.color-mobile-green {
+  background: #92bc02; }
+
+.textcolor-mobile-green {
+  color: #92bc02; }
+
+.color-dark-mobile-green {
+  background: #729d00; }
+
+.textcolor-dark-mobile-green {
+  color: #729d00; }
+
+.color-alert-red {
+  background: #ed1c24; }
+
+.textcolor-alert-red {
+  color: #ed1c24; }
+
+.color-black-trans {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* Type: Headings */
+.page-title {
+  font-family: "pnThin";
+  color: #857f7f;
+  font-size: 3.6rem; }
+
+.section-heading {
+  font-family: "pnBold";
+  color: #cfceca;
+  font-size: 2.4rem; }
+
+.section-subheading {
+  font-family: "pnSemibold";
+  color: #595454;
+  font-size: 1.6rem;
+  text-transform: uppercase; }
+
+/* Type: Copy */
+.copy, p {
+  font-family: "pnRegular";
+  color: #857f7f;
+  font-size: 1.6rem; }
+
+.copy {
+  line-height: 3rem; }
+
+.details {
+  font-family: "pnRegular";
+  color: #857f7f;
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
+.alternate {
+  font-family: "tisaMedium-Italic";
+  color: #857f7f;
+  font-size: 1.6rem; }
+
+.link {
+  color: #92bc02;
+  /* text-decoration:underline; */ }
+
+/* Type: Misc */
+.error {
+  font-family: "pnRegular-Italic";
+  font-size: 1.6rem;
+  color: #ed1c24; }
+
+/* Gradients */
+.gradient-green {
+  background: #92bc02;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #92bc02 0%, #729d00 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #92bc02), color-stop(100%, #729d00));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #92bc02 0%, #729d00 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #92bc02 0%, #729d00 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #92bc02 0%, #729d00 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #92bc02 0%, #729d00 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92bc02', endColorstr='#729d00',GradientType=0 );
+  /* IE6-9 */ }
+
+.gradient-gray {
+  background: #595454;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #595454 0%, #4b4647 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #595454), color-stop(100%, #4b4647));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #595454 0%, #4b4647 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #595454 0%, #4b4647 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #595454 0%, #4b4647 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #595454 0%, #4b4647 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595454', endColorstr='#4b4647',GradientType=0 );
+  /* IE6-9 */ }
+
+.gradient-gray:hover,
+.gradient-gray:focus,
+.gradient-gray.focus,
+.gradient-gray:active,
+.gradient-gray.active {
+  background: #2d2c2b; }
+
+.gradient-green:hover,
+.gradient-green:focus,
+.gradient-green.focus,
+.gradient-green:active,
+.gradient-green.active {
+  background: #576a00; }
+
+/* Miscellaneous */
+.sidebar {
+  margin-top: 24px; }
+
+.sidebar-box {
+  margin-bottom: 4px; }
+
+.sidebar-box-bar {
+  background: #fff;
+  padding: 0 0 6px 20px;
+  cursor: pointer;
+  position: relative; }
+
+.sidebar-box-content dl:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.sidebar-box-content dt, .sidebar-box-content dd {
+  float: left; }
+
+.sidebar-box-content dt {
+  clear: both;
+  margin-right: 3px; }
+
+.sidebar-box-content dt:after {
+  content: ": "; }
+
+.sidebar-box-content dd {
+  margin-bottom: 6px; }
+
+.sidebar-box-content .panel-body {
+  padding: 10px 20px 20px 20px; }
+
+.active .sidebar-box-bar {
+  background: #f9f8f6; }
+
+.active .sidebar-tab-label-text {
+  color: #595454; }
+
+.active .caret {
+  color: #595454;
+  top: 48%;
+  border-top: none;
+  border-bottom: 8px solid;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent; }
+
+.sidebar-tab-label-text {
+  font-family: "pnSemibold";
+  color: #595454;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #92bc02;
+  display: inline-block; }
+
+.caret {
+  position: absolute;
+  right: 20px;
+  top: 50%; }
+
+/*.sidebar-box-bar:hover .sidebar-button-arrow,
+.sidebar-box-bar:hover .sidebar-tab-label-text{
+
+  color:#729d00;
+}*/
+.sidebar-box-bar:hover h3,
+.sidebar-box-bar:hover .caret {
+  color: #857f7f; }
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+#header, #footer {
+  color: #857f7f; }
+
+#header {
+  background: url("images/content_kitchen2.jpg") center center no-repeat;
+  background-size: cover;
+  height: 157px; }
+
+#header .color-black-trans {
+  height: 157px; }
+
+.logo-provisions {
+  /*background:url('images/logo_provisions.svg') no-repeat;*/
+  height: 16px;
+  width: 140px;
+  /*height:51px;
+  width:452px;*/
+  overflow: hidden; }
+
+svg:hover path {
+  fill: #92bc02; }
+
+/* Footer stuff */
+#footer {
+  /* height:100%; */
+  width: 100%;
+  background: #2d2c2b;
+  height: 78px; }
+
+#copyright {
+  padding-top: 24px;
+  text-align: center;
+  line-height: 1.6rem; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #footer {
+    /* background:red; */ } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #footer {
+    /* background:orange; */ } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #footer {
+    /* background:green; */ } }

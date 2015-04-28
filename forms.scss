@@ -1,0 +1,239 @@
+@import "variables";
+
+
+
+/* Form Elements */
+.form-box{
+
+    background:$color-light-gray2;
+    border-radius:$border-radius-minor;
+    margin:30px 0;
+}
+.form-box-header{
+
+    background:$color-light-gray3;
+    height:50px;
+    width:100%;
+    position:relative;
+    border-radius:$border-radius-minor $border-radius-minor 0 0;
+}
+
+.form-box-header .section-subheading{
+
+  position:absolute;
+  top:0px;
+  left:20px;
+}
+
+.form-box-content{
+
+  padding:20px;
+}
+
+.form-element{
+
+  margin-bottom:20px;
+}
+
+.formElement-label{
+
+  font-family:$font-proxima-semibold;
+  color:$color-copy-gray1;
+  font-size:$font-size-normal;
+}
+
+/* add rounded corners to these form elements */
+button, input[type=text], textarea, select{
+
+  border-radius:$border-radius-minor;
+}
+/* make the border 1px solid gray to these form elements */
+input[type=text], textarea, select{
+
+  border:1px solid $color-medium-gray;
+}
+/* give these form elements a solid white background */
+input[type=text], textarea, select{
+
+  background:$color-white;
+}
+
+input[type=text], select{
+
+  height:32px;
+}
+
+textarea.formElement-text{
+
+  min-height:100px;
+}
+
+input[type=text].formElement-input,
+textarea.formElement-text{
+
+  font-family:$font-proxima-regular;
+  /*color:#857f7f;*/
+  font-size:$font-size-normal;
+  padding-right:10px;
+  padding-left:10px;
+}
+textarea.formElement-text{
+
+  padding-top:4px;
+  padding-bottom:4px;
+}
+
+
+.button-large{
+
+  padding:12px 30px;
+  border:none;
+
+  font-family:$font-proxima-regular;
+  color:$color-white;
+  font-size:$font-size-large;
+  line-height:$font-size-large;
+  text-transform:capitalize;
+}
+
+.button-medium{
+
+  padding:8px 30px;
+  border:none;
+
+  font-family:$font-proxima-regular;
+  color:$color-white;
+  font-size:$font-size-large;
+  line-height:$font-size-large;
+  text-transform:capitalize;
+}
+.button-small{
+
+  padding:6px 15px;
+  border:none;
+
+  font-family:$font-proxima-regular;
+  color:$color-white;
+  font-size:$font-size-normal;
+  line-height:$font-size-normal;
+  text-transform:capitalize;
+}
+
+
+.button-inverted-gray{
+
+  background:none;
+  border:2px solid $color-copy-gray2;
+  border-radius:$border-radius-minor;
+  color:$color-copy-gray2;
+  font-family:$font-proxima-semibold;
+}
+.button-inverted-white{
+
+  background:none;
+  border:2px solid $color-white;
+  border-radius:$border-radius-minor;
+  color:$color-white;
+  font-family:$font-proxima-semibold;
+}
+.button-inverted-white:hover,
+.button-inverted-white:active,
+.button-inverted-gray:hover,
+.button-inverted-gray:active{
+
+  border-color:$color-mobile-green;
+  color:$color-mobile-green;
+}
+
+
+
+/* checkbox config */
+input[type=checkbox].formElement-checkbox {
+
+  position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].formElement-checkbox + label.formElement-checkbox-label {
+
+  padding-left:25px;
+  height:20px;
+  display:inline-block;
+  line-height:20px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  /*font-size:20px;*/
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+input[type=checkbox].formElement-checkbox:checked + label.formElement-checkbox-label {
+
+  background-position: 0 -20px;
+}
+
+label.formElement-checkbox-label {
+
+  background-image:url(images/formElement_checkbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* /END checkbox config */
+
+/* Form Element Input Text */
+input.formElement-input::-webkit-input-placeholder,
+textarea.formElement-text::-webkit-input-placeholder{
+
+  color:$color-medium-gray;
+  font-family:$font-proxima-regular-italic;
+  font-size:$font-size-normal;
+  text-transform:none;
+}
+input.formElement-input::-moz-placeholder,
+textarea.formElement-text::-moz-placeholder{
+
+  color:$color-medium-gray;
+  font-family:$font-proxima-regular-italic;
+  font-size:$font-size-normal;
+  text-transform:none;
+}
+input.formElement-input:-moz-placeholder,
+textarea.formElement-text:-moz-placeholder{
+
+  color:$color-medium-gray;
+  font-family:$font-proxima-regular-italic;
+  font-size:$font-size-normal;
+  text-transform:none;
+}
+input.formElement-input:-ms-input-placeholder,
+textarea.formElement-text:-ms-input-placeholder {
+
+  color:$color-medium-gray;
+  font-family:$font-proxima-regular-italic;
+  font-size:$font-size-normal;
+  text-transform:none;
+}
+
+
+
+input[type=text].formElement-input, select, textarea.formElement-text{
+
+  min-width:100%;
+  max-width:100%;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  input[type=text].formElement-input, select, textarea.formElement-text{
+
+    min-width:75%;
+    max-width:75%;
+  }
+
+}

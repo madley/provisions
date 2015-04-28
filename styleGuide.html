@@ -18,9 +18,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="temp.css" rel="stylesheet">
+    <link href="working.css" rel="stylesheet">
+    <link href="style-guide.css" rel="stylesheet">
+
     <style type="text/css">
 
+    .color-block{
+
+      width:100px;
+      height:66px;
+      border:1px solid #000;
+      border-radius:3px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p{
+
+      color:black;
+    }
 
 
     </style>
@@ -42,18 +56,21 @@
           <div class="row">
 
             <div class="col-md-4 col-sm-12">
-              <p class="page-title">H1 / Page Title</p>
-              <p>Proxima Nova Thin, 3.6rem(36pt), #857f7f</p>
+              <p class="page-title">Page Title (h1)</p>
+              <p><mark>.page-title</mark></p>
+              <p>Used once at the top of each page on the h1. Must be explicity added.</p>
             </div>
 
             <div class="col-md-4 col-sm-12">
-              <p class="section-heading">H2 / Section Heading</p>
-              <p>Proxima Nova Bold, 2.4rem(24pt), #cfceca</p>
+              <p class="section-heading">Section Heading (h2)</p>
+              <p><mark>.section-heading</mark></p>
+              <p>Used for h2 elements. Must be explicity added.</p>
             </div>
 
             <div class="col-md-4 col-sm-12">
-              <p class="section-subheading">H3 / Section Sub-Heading</p>
-              <p>Proxima Nova Semibold, 1.6rem(16pt), #595454</p>
+              <p class="section-subheading">Section Sub-Heading (h3)</p>
+              <p><mark>.section-subheading</mark></p>
+              <p>Used for h3 elements. Must be explicity added.</p>
             </div>
 
           </div><!-- /END .row -->
@@ -72,17 +89,20 @@
 
             <div class="col-md-4 col-sm-12">
               <p class="copy">Body Copy</p>
-              <p>Proxima Nove Regular, 1.6rem(16pt), #857f7f</p>
+              <p><mark>.copy</mark></p>
+              <p>The Copy style is applied to all paragraphs by default, but the <mark>.copy</mark> class also adds proper line height for better reading.</p>
             </div>
 
             <div class="col-md-4 col-sm-12">
               <p class="details">Details</p>
-              <p>Proxima Nove Regular, 1.4rem(14pt), #857f7f</p>
+              <p><mark>.details</mark></p>
+              <p>Used primarily to give additional detailed information on list items.</p>
             </div>
 
             <div class="col-md-4 col-sm-12">
               <p class="alternate">Alternate Type</p>
-              <p>Tisa Medium Italic, 1.6rem(16pt), #857f7f</p>
+              <p><mark>.alternate</mark></p>
+              <p>Adds an alternate, serif typeface to denote specific elements like a product's price.</p>
             </div>
 
           </div><!-- /END .row -->
@@ -92,13 +112,9 @@
           <div class="row">
 
             <div class="col-md-4 col-sm-12">
-              <p class="sidebar-tab-label-text">Sidebar tabs</p>
-              <p>Proxima Nova Bold, 1.8rem(18pt), #595454</p>
-            </div>
-
-            <div class="col-md-4 col-sm-12">
               <p class="error">Error messaging</p>
-              <p>Proxima Nova Regular Italic, 1.6rem(16pt), #ed1c24</p>
+              <p><mark>.error</mark></p>
+              <p>Used on errors and items like required form fields</p>
             </div>
 
           </div><!-- /END .row -->
@@ -118,12 +134,14 @@
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-white"><!-- --></div>
           <h4>White (#fff)</h4>
+          <p><mark>.color-white</mark></p>
           <p>Used to bring elements forward, like buttons and form elements (radios, checkboxes, input, textarea, etc.)</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-dark-gray"><!-- --></div>
           <h4>Dark Gray (#2d2c2b)</h4>
+          <p><mark>.color-dark-gray</mark></p>
           <p>This is a very dark gray used as a color block on the footer</p>
         </div>
 
@@ -132,20 +150,23 @@
       <div class="row">
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-light-gray-1"><!-- --></div>
+          <div class="color-block color-light-gray1"><!-- --></div>
           <h4>Light Gray 1 (#f9f8f6)</h4>
+          <p><mark>.color-light-gray1</mark></p>
           <p>Used for the main background color</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-light-gray-2"><!-- --></div>
+          <div class="color-block color-light-gray2"><!-- --></div>
           <h4>Light Gray 2 (#f3f1ed)</h4>
+          <p><mark>.color-light-gray2</mark></p>
           <p>Slightly darker than Light Gray 1, it is used for color-blocking sections, banding rows, and as a box background</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-light-gray-3"><!-- --></div>
+          <div class="color-block color-light-gray3"><!-- --></div>
           <h4>Light Gray 3 (#edeae5)</h4>
+          <p><mark>.color-light-gray3</mark></p>
           <p>Slighty darker than Light Gray 2, it is used as an accent color in areas where Light Gray 2 is the dominant color, such as in boxes, or tables as the header</p>
         </div>
 
@@ -157,20 +178,23 @@
       <div class="row">
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-copy-gray-1"><!-- --></div>
+          <div class="color-block color-copy-gray1"><!-- --></div>
           <h4>Copy Gray 1 #857f7f</h4>
+          <p><mark>.color-copy-gray1</mark></p>
           <p>The default color used for all body copy and some headings</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-copy-gray-2"><!-- --></div>
+          <div class="color-block color-copy-gray2"><!-- --></div>
           <h4>Copy Gray 2 #595454</h4>
+          <p><mark>.color-copy-gray2</mark></p>
           <p>This darker gray is used for emphasis and can be seen on buttons, bolded elements and headings</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
-          <div class="color-block color-copy-gray-3"><!-- --></div>
+          <div class="color-block color-copy-gray3"><!-- --></div>
           <h4>Copy Gray 3 #4b4647</h4>
+          <p><mark>.color-copy-gray3</mark></p>
           <p>This gray is used in conjunction with Copy Gray as a button gradient</p>
         </div>
 
@@ -181,18 +205,21 @@
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-subtle-gray"><!-- --></div>
           <h4>Subtle Gray #cfceca</h4>
+          <p><mark>.color-subtle-gray</mark></p>
           <p>Used for subtle elements such as on the Back to Top button and on some headings</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-mobile-green"><!-- --></div>
           <h4>Mobile Green #92bc02</h4>
+          <p><mark>.color-mobile-green</mark></p>
           <p>Used as the main call-to-action and active color</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-dark-mobile-green"><!-- --></div>
           <h4>Dark Mobile Green #729d00</h4>
+          <p><mark>.color-dark-mobile-green</mark></p>
           <p>Used in conjunction with Mobile Green as a button gradient</p>
         </div>
 
@@ -203,6 +230,7 @@
         <div class="col-md-4 col-sm-6">
           <div class="color-block color-alert-red"><!-- --></div>
           <h4>Alert Red #ed1c24</h4>
+          <p><mark>.color-alert-red</mark></p>
           <p>Used for alerts and errors</p>
         </div>
 
@@ -222,12 +250,14 @@
         <div class="col-md-4 col-sm-6">
           <button class="button-large gradient-green" type="button">I'm a large green button</button>
           <h5>Primary call to action button</h5>
-          <p>Large button used to drive user to main action</p>
+          <p><mark>.button-large .gradient-green</mark></p>
+          <p>Large button to drive user to main action</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <button class="button-large gradient-gray" type="button">I'm a large gray button</button>
           <h5>Secondary call to action button</h5>
+          <p><mark>.button-large .gradient-gray</mark></p>
           <p>Large button to drive user to secondary actions</p>
         </div>
 
@@ -240,13 +270,28 @@
         <div class="col-md-4 col-sm-6">
           <button class="button-medium gradient-gray" type="button">I'm a medium gray button</button>
           <h5>Secondary call to action button</h5>
+          <p><mark>.button-medium .gradient-gray</mark></p>
           <p>Medium button to drive user to secondary actions</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <button class="button-medium button-inverted-gray" type="button">I'm an inverted button</button>
           <h5>Secondary inverted call to action button</h5>
+          <p><mark>.button-medium .button-inverted-gray</mark></p>
           <p>Medium button to drive user to secondary actions</p>
+        </div>
+
+      </div><!-- /END .row -->
+
+      <h4>Small Buttons</h4>
+
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6">
+          <button class="button-small gradient-gray" type="button">I'm a small gray button</button>
+          <h5>Tertiary call to action button</h5>
+          <p><mark>.button-small .gradient-gray</mark></p>
+          <p>Small button to drive user to tertiary actions</p>
         </div>
 
       </div><!-- /END .row -->
@@ -259,6 +304,7 @@
         <div class="col-md-4 col-sm-6">
           <p class="formElement-label">Example Form Label Text</p>
           <h4>Form Label</h4>
+          <p><mark>.formElement-label</mark></p>
           <p>Form label type stylings. In most cases the form label is printed directly above the form element. Capital-case.</p>
         </div>
 
@@ -266,6 +312,7 @@
           <input type="checkbox" name="checkbox1" id="checkbox1" class="formElement-checkbox">
           <label for="checkbox1" class="formElement-checkbox-label copy">Checkbox Label</label>
           <h4>Checkbox</h4>
+          <p><mark>.formElement-checkbox</mark></p>
           <p>Uses a custom image for checked/unchecked. (TODO: Determine accessibility issues.)</p>
         </div>
 
@@ -273,6 +320,7 @@
           <input type="radio" name="radio1" value="male">
           <label for="radio1">Radio</label>
           <h4>Radio Button</h4>
+          <p><mark>Need to finish this</mark></p>
           <p>Uses a custom image for checked/unchecked. (TODO: Determine accessibility issues.)</p>
         </div>
 
@@ -287,18 +335,21 @@
               <option value="1">Value 2</option>
           </select>
           <h4>Dropdown</h4>
+          <p><mark>inherent style applied to all selects</mark></p>
           <p>Uses a custom image for checked/unchecked. (TODO: Determine accessibility issues.)</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <input class="formElement-input" type="text" placeholder="50 characters max">
           <h4>Input</h4>
+          <p><mark>.formElement-input</mark></p>
           <p>Has a light gray color for placeholder, then normal gray for input.</p>
         </div>
 
         <div class="col-md-4 col-sm-6">
           <textarea class="formElement-text" placeholder="50 characters max"></textarea>
           <h4>Textarea</h4>
+          <p><mark>.formElement-text</mark></p>
           <p>Uses a custom image for checked/unchecked. (TODO: Determine accessibility issues.)</p>
         </div>
 
@@ -307,52 +358,7 @@
 
       <hr>
 
-      <h2>Iconography</h2>
-      <p>All iconography is saved in SVG format for scalability.</p>
-      <h3>Logos</h3>
-
-      <div class="row">
-
-        <div class="col-md-4 col-sm-6">
-          <div class="logo-provisions"><!-- --></div>
-          <h4>Provisions Logo</h4>
-          <p>Provisions logo, works as link to home.</p>
-        </div>
-
-      </div><!-- /END .row -->
-
-      <h3>Icons</h3>
-
-      <div class="row">
-
-        <div class="col-md-4 col-sm-6">
-          <div class="icon-arrow1"><!-- --></div>
-          <h4>Arrow Toggle Icon</h4>
-          <p>An arrow used to show the user something is expandable/collapsable.</p>
-        </div>
-
-      </div><!-- /END .row -->
-
-
-      <hr>
-
-      <h2>Miscellaneous</h2>
-
-      <div class="row">
-
-        <div class="col-md-3 col-sm-6">
-
-          <div class="sidebar-box">
-            <div class="sidebar-box-bar" style="border:1px solid green; position:relative;">
-              <h3 class="sidebar-tab-label-text" style="display:inline-block;">Details</h3>
-              <div class="icon-arrow1 sidebar-button-arrow" style=""><!-- --></div>
-            </div>
-            <p>Expandy/collapsy box.</p>
-          </div>
-
-        </div>
-
-      </div><!-- /END .row -->
+      
 
       <br><br><br><br><br><br><br><br><br>
 

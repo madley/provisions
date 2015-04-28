@@ -1,0 +1,374 @@
+@import "variables";
+@import "functions";
+@import "forms";
+
+
+//create font faces - this mixin is found in functions
+@include declare-font-face( $font-proxima-thin, $font-proxima-thin );
+@include declare-font-face( $font-proxima-regular, $font-proxima-regular );
+@include declare-font-face( $font-proxima-regular-italic, $font-proxima-regular-italic );
+@include declare-font-face( $font-proxima-semibold, $font-proxima-semibold );
+@include declare-font-face( $font-proxima-bold, $font-proxima-bold );
+@include declare-font-face( $font-proxima-condensed-bold, $font-proxima-condensed-bold );
+@include declare-font-face( $font-tisa-medium-italic, $font-tisa-medium-italic );
+
+
+
+//color utility classes
+.color-white{ background:$color-white;}
+.textcolor-white{ color:$color-white;}
+
+.color-dark-gray{ background:$color-dark-gray;}
+.textcolor-dark-gray{ color:$color-dark-gray;}
+
+.color-light-gray1{ background:$color-light-gray1;}
+.textcolor-light-gray1{ color:$color-light-gray1;}
+
+.color-light-gray2{ background:$color-light-gray2;}
+.textcolor-light-gray2{ color:$color-light-gray2;}
+
+.color-light-gray3{ background:$color-light-gray3;}
+.textcolor-light-gray3{ color:$color-light-gray3;}
+
+.color-copy-gray1{ background:$color-copy-gray1;}
+.textcolor-copy-gray1{ color:$color-copy-gray1;}
+
+.color-copy-gray2{ background:$color-copy-gray2;}
+.textcolor-copy-gray2{ color:$color-copy-gray2;}
+
+.color-copy-gray3{ background:$color-copy-gray3;}
+.textcolor-copy-gray3{ color:$color-copy-gray3;}
+
+.color-subtle-gray{ background:$color-subtle-gray;}
+.textcolor-subtle-gray{ color:$color-subtle-gray;}
+
+.color-mobile-green{ background:$color-mobile-green;}
+.textcolor-mobile-green{ color:$color-mobile-green;}
+
+.color-dark-mobile-green{ background:$color-dark-mobile-green;}
+.textcolor-dark-mobile-green{ color:$color-dark-mobile-green;}
+
+.color-alert-red{ background:$color-alert-red;}
+.textcolor-alert-red{ color:$color-alert-red;}
+
+.color-black-trans{ background-color:$color-black-trans; }
+
+
+
+/* Type: Headings */
+.page-title{
+
+  font-family:$font-proxima-thin;
+  color:$color-copy-gray1;
+  font-size:$font-size-huge;
+}
+
+.section-heading{
+
+  font-family:$font-proxima-bold;
+  color:$color-subtle-gray;
+  font-size:$font-size-xlarge;
+}
+
+.section-subheading{
+
+  font-family:$font-proxima-semibold;
+  color:$color-copy-gray2;
+  font-size:$font-size-normal;
+  text-transform:uppercase;
+}
+
+/* Type: Copy */
+.copy, p{
+
+  font-family:$font-proxima-regular;
+  color:$color-copy-gray1;
+  font-size:$font-size-normal;
+}
+.copy{
+
+  line-height:multiplyByGoldenRatio($font-size-normal);
+}
+
+.details{
+
+  font-family:$font-proxima-regular;
+  color:$color-copy-gray1;
+  font-size:$font-size-small;
+  line-height:multiplyByGoldenRatio($font-size-small);
+}
+
+.alternate{
+
+  font-family:$font-tisa-medium-italic;
+  color:$color-copy-gray1;
+  font-size:$font-size-normal;
+}
+
+.link{
+
+  color:$color-mobile-green;
+  /* text-decoration:underline; */
+}
+
+/* Type: Misc */
+
+.error{
+
+  font-family:$font-proxima-regular-italic;
+  font-size:$font-size-normal;
+  color:$color-alert-red;
+}
+
+
+
+
+
+
+
+/* Gradients */
+.gradient-green{
+
+  background: $color-mobile-green; /* Old browsers */
+  background: -moz-linear-gradient(top,  $color-mobile-green 0%, $color-dark-mobile-green 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color-mobile-green), color-stop(100%,$color-dark-mobile-green)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  $color-mobile-green 0%,$color-dark-mobile-green 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  $color-mobile-green 0%,$color-dark-mobile-green 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  $color-mobile-green 0%,$color-dark-mobile-green 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  $color-mobile-green 0%,$color-dark-mobile-green 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color-mobile-green}', endColorstr='#{$color-dark-mobile-green}',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-gray{
+
+  background: $color-copy-gray2; /* Old browsers */
+  background: -moz-linear-gradient(top,  $color-copy-gray2 0%, $color-copy-gray3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color-copy-gray2), color-stop(100%,$color-copy-gray3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  $color-copy-gray2 0%,$color-copy-gray3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  $color-copy-gray2 0%,$color-copy-gray3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  $color-copy-gray2 0%,$color-copy-gray3 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  $color-copy-gray2 0%,$color-copy-gray3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color-copy-gray2}', endColorstr='#{$color-copy-gray3}',GradientType=0 ); /* IE6-9 */
+}
+
+
+.gradient-gray:hover,
+.gradient-gray:focus,
+.gradient-gray.focus,
+.gradient-gray:active,
+.gradient-gray.active{
+  background:$color-dark-gray;
+}
+.gradient-green:hover,
+.gradient-green:focus,
+.gradient-green.focus,
+.gradient-green:active,
+.gradient-green.active{
+  background:$color-darker-mobile-green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Miscellaneous */
+.sidebar{
+
+  margin-top:24px;
+}
+
+.sidebar-box{
+
+  margin-bottom:4px;
+}
+
+.sidebar-box-bar{
+
+  background:$color-white;
+  padding:0 0 6px 20px;
+  cursor:pointer;
+  position:relative;
+}
+
+
+//completely necessary unless you want collapsed dl boxes
+.sidebar-box-content dl:after{
+
+  content: "";
+  display: table;
+  clear: both;
+}
+.sidebar-box-content dt, .sidebar-box-content dd{
+
+  float:left;
+}
+.sidebar-box-content dt {
+
+  clear:both;
+  margin-right:3px;
+}
+.sidebar-box-content dt:after{
+
+    content: ": "
+}
+.sidebar-box-content dd{
+
+  margin-bottom:6px;
+}
+
+.sidebar-box-content .panel-body{
+
+  padding:10px 20px 20px 20px;
+}
+//to target the expanded content div
+.sidebar-box .in{
+
+  //background:red !important;
+}
+.active .sidebar-box-bar{
+
+  background:$color-light-gray1;
+}
+.active .sidebar-tab-label-text{
+
+  color:$color-copy-gray2;
+}
+.active .caret {
+
+  color:$color-copy-gray2;
+  top:48%;
+  border-top:none;
+  border-bottom: 8px solid;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+
+.sidebar-tab-label-text{
+
+  font-family:$font-proxima-semibold;
+  color:$color-copy-gray2;
+  font-size:$font-size-large;
+  text-transform:uppercase;
+  color:$color-mobile-green;
+  display:inline-block;
+}
+
+
+.caret{
+
+  position:absolute; right:20px;
+  top:50%;
+}
+
+/*.sidebar-box-bar:hover .sidebar-button-arrow,
+.sidebar-box-bar:hover .sidebar-tab-label-text{
+
+  color:#729d00;
+}*/
+
+
+.sidebar-box-bar:hover h3,
+.sidebar-box-bar:hover .caret{
+
+  color:$color-copy-gray1;
+}
+
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+
+#header, #footer{
+
+  color:$color-copy-gray1;
+}
+
+#header{
+
+  background:url('images/content_kitchen2.jpg') center center no-repeat;
+  background-size:cover;
+  height:157px;
+}
+
+//set black trans div wrapper to 157px, prolly need to change this for mobile
+#header .color-black-trans{
+
+  height:157px;
+}
+
+.logo-provisions{
+
+  /*background:url('images/logo_provisions.svg') no-repeat;*/
+  height:16px;
+  width:140px;
+  /*height:51px;
+  width:452px;*/
+  overflow:hidden;
+}
+
+svg:hover path{
+
+  fill:$color-mobile-green;
+}
+
+
+/* Footer stuff */
+#footer{
+
+  /* height:100%; */
+  width:100%;
+  background:$color-dark-gray;
+  height:78px;
+}
+#copyright{
+
+  padding-top:24px;
+  text-align:center;
+  line-height:$font-size-normal;
+}
+
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+  #footer{
+
+    /* background:red; */
+  }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  #footer{
+
+    /* background:orange; */
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #footer{
+
+    /* background:green; */
+  }
+}
