@@ -1,0 +1,6353 @@
+/*Merged css atSat Mar 28 2015 19:11:34 GMT+0800 (China Standard Time)*/
+/**
+ * @license
+ * MyFonts Webfont Build ID 2707799, 2013-12-13T14:01:04-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova S Cond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-light/
+ * 
+ * Webfont: Proxima Nova A Cond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-light/
+ * 
+ * Webfont: Proxima Nova S Cond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-light-it/
+ * 
+ * Webfont: Proxima Nova A Cond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-light-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-thin-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-thin-it/
+ * 
+ * Webfont: Proxima Nova A Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-extrabld-it/
+ * 
+ * Webfont: Proxima Nova S Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-extrabld-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-bold-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-bold-it/
+ * 
+ * Webfont: Proxima Nova A Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-thin/
+ * 
+ * Webfont: Proxima Nova S Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-thin/
+ * 
+ * Webfont: Proxima Nova A Cond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-semibold-it/
+ * 
+ * Webfont: Proxima Nova S Cond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-semibold/
+ * 
+ * Webfont: Proxima Nova S Cond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-semibold-it/
+ * 
+ * Webfont: Proxima Nova A Cond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-semibold/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-extrabld-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-extrabld-it/
+ * 
+ * Webfont: Proxima Nova S Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-extrabld/
+ * 
+ * Webfont: Proxima Nova A Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-extrabld/
+ * 
+ * Webfont: Proxima Nova S Cond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-thin/
+ * 
+ * Webfont: Proxima Nova A Cond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-thin/
+ * 
+ * Webfont: Proxima Nova A Cond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-thin-it/
+ * 
+ * Webfont: Proxima Nova S Cond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-thin-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-regular/
+ * 
+ * Webfont: Proxima Nova S Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-semibold-it/
+ * 
+ * Webfont: Proxima Nova S Cond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-black-it/
+ * 
+ * Webfont: Proxima Nova A Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * 
+ * Webfont: Proxima Nova A Cond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-bold/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-semibold-it/
+ * 
+ * Webfont: Proxima Nova S Cond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-black/
+ * 
+ * Webfont: Proxima Nova S Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-thin-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-extrabld/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-regular-it/
+ * 
+ * Webfont: Proxima Nova A Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-thin/
+ * 
+ * Webfont: Proxima Nova S Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular/
+ * 
+ * Webfont: Proxima Nova A Cond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-extrabld-it/
+ * 
+ * Webfont: Proxima Nova A Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-light-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-bold/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-bold/
+ * 
+ * Webfont: Proxima Nova S Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-semibold/
+ * 
+ * Webfont: Proxima Nova A Cond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-black-it/
+ * 
+ * Webfont: Proxima Nova S Cond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-bold-it/
+ * 
+ * Webfont: Proxima Nova S Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular-it/
+ * 
+ * Webfont: Proxima Nova S Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * 
+ * Webfont: Proxima Nova S Cond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-bold/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-black-it/
+ * 
+ * Webfont: Proxima Nova A Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-black-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-semibold/
+ * 
+ * Webfont: Proxima Nova A Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-light/
+ * 
+ * Webfont: Proxima Nova A Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-semibold-it/
+ * 
+ * Webfont: Proxima Nova S Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-black-it/
+ * 
+ * Webfont: Proxima Nova A Cond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-black/
+ * 
+ * Webfont: Proxima Nova A Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-semibold/
+ * 
+ * Webfont: Proxima Nova S Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold-it/
+ * 
+ * Webfont: Proxima Nova S Cond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-regular-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-extrabld/
+ * 
+ * Webfont: Proxima Nova S Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-black/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-light/
+ * 
+ * Webfont: Proxima Nova A Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-light-it/
+ * 
+ * Webfont: Proxima Nova A Cond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-regular-it/
+ * 
+ * Webfont: Proxima Nova S Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-light-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-black/
+ * 
+ * Webfont: Proxima Nova A Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-black/
+ * 
+ * Webfont: Proxima Nova A Cond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-bold-it/
+ * 
+ * Webfont: Proxima Nova S Cond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-regular/
+ * 
+ * Webfont: Proxima Nova A Cond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-extrabld/
+ * 
+ * Webfont: Proxima Nova S Cond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-extrabld/
+ * 
+ * Webfont: Proxima Nova S Cond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/scond-extrabld-it/
+ * 
+ * Webfont: Proxima Nova A Cond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/acond-regular/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-semibold-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-light/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-semibold/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-regular/
+ * 
+ * Webfont: Proxima Nova S Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-light/
+ * 
+ * Webfont: Proxima Nova A Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-thin-it/
+ * 
+ * Webfont: Proxima Nova A Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-black-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-thin/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-light-it/
+ * 
+ * Webfont: Proxima Nova A ExtraCond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/aex-cn-regular-it/
+ * 
+ * Webfont: Proxima Nova S ExtraCond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/sex-cn-black/
+ * 
+ * Webfont: Proxima Nova Cond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-light/
+ * 
+ * Webfont: Proxima Nova Cond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-light-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-thin-it/
+ * 
+ * Webfont: Proxima Nova Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/extrabld-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-bold-it/
+ * 
+ * Webfont: Proxima Nova Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+ * 
+ * Webfont: Proxima Nova Cond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-semibold-it/
+ * 
+ * Webfont: Proxima Nova Cond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-semibold/
+ * 
+ * Webfont: Proxima Nova ExtraCond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-extrabld-it/
+ * 
+ * Webfont: Proxima Nova Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/extrabld/
+ * 
+ * Webfont: Proxima Nova Cond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-thin/
+ * 
+ * Webfont: Proxima Nova Cond Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-thin-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-semibold/
+ * 
+ * Webfont: Proxima Nova Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/black/
+ * 
+ * Webfont: Proxima Nova Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-thin/
+ * 
+ * Webfont: Proxima Nova ExtraCond Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-light/
+ * 
+ * Webfont: Proxima Nova Cond Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-bold-it/
+ * 
+ * Webfont: Proxima Nova Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+ * 
+ * Webfont: Proxima Nova Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+ * 
+ * Webfont: Proxima Nova Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-extrabld/
+ * 
+ * Webfont: Proxima Nova Cond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-regular/
+ * 
+ * Webfont: Proxima Nova Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin-it/
+ * 
+ * Webfont: Proxima Nova Cond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-black-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-black/
+ * 
+ * Webfont: Proxima Nova Semibold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+ * 
+ * Webfont: Proxima Nova ExtraCond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-bold/
+ * 
+ * Webfont: Proxima Nova Cond Black by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-black/
+ * 
+ * Webfont: Proxima Nova Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/black-it/
+ * 
+ * Webfont: Proxima Nova Cond Extrabold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-extrabld/
+ * 
+ * Webfont: Proxima Nova ExtraCond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-regular-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Light Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-light-it/
+ * 
+ * Webfont: Proxima Nova Cond Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-regular-it/
+ * 
+ * Webfont: Proxima Nova Cond Extrabold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-extrabld-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Black Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-black-it/
+ * 
+ * Webfont: Proxima Nova Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+ * 
+ * Webfont: Proxima Nova ExtraCond Semibold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-semibold-it/
+ * 
+ * Webfont: Proxima Nova Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * 
+ * Webfont: Proxima Nova ExtraCond Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-regular/
+ * 
+ * Webfont: Proxima Nova Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * 
+ * Webfont: Proxima Nova Cond Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/cond-bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2707799
+ * Licensed pageviews: 20,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * Â© 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/295157");*/
+
+  
+@font-face {font-family: 'ProximaNovaSCond-Light';src: url('common/font/295157_0_0.eot');src: url('common/font/295157_0_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_0_0.woff') format('woff'),url('common/font/295157_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Light';src: url('common/font/295157_1_0.eot');src: url('common/font/295157_1_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1_0.woff') format('woff'),url('common/font/295157_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-LightIt';src: url('common/font/295157_2_0.eot');src: url('common/font/295157_2_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2_0.woff') format('woff'),url('common/font/295157_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-LightIt';src: url('common/font/295157_3_0.eot');src: url('common/font/295157_3_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3_0.woff') format('woff'),url('common/font/295157_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-ThinIt';src: url('common/font/295157_4_0.eot');src: url('common/font/295157_4_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4_0.woff') format('woff'),url('common/font/295157_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-ThinIt';src: url('common/font/295157_5_0.eot');src: url('common/font/295157_5_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5_0.woff') format('woff'),url('common/font/295157_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-ExtrabldIt';src: url('common/font/295157_6_0.eot');src: url('common/font/295157_6_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6_0.woff') format('woff'),url('common/font/295157_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-ExtrabldIt';src: url('common/font/295157_7_0.eot');src: url('common/font/295157_7_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_7_0.woff') format('woff'),url('common/font/295157_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-BoldIt';src: url('common/font/295157_8_0.eot');src: url('common/font/295157_8_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_8_0.woff') format('woff'),url('common/font/295157_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-BoldIt';src: url('common/font/295157_9_0.eot');src: url('common/font/295157_9_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_9_0.woff') format('woff'),url('common/font/295157_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Thin';src: url('common/font/295157_A_0.eot');src: url('common/font/295157_A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_A_0.woff') format('woff'),url('common/font/295157_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Thin';src: url('common/font/295157_B_0.eot');src: url('common/font/295157_B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_B_0.woff') format('woff'),url('common/font/295157_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-SemiboldIt';src: url('common/font/295157_C_0.eot');src: url('common/font/295157_C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_C_0.woff') format('woff'),url('common/font/295157_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Semibold';src: url('common/font/295157_D_0.eot');src: url('common/font/295157_D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_D_0.woff') format('woff'),url('common/font/295157_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-SemiboldIt';src: url('common/font/295157_E_0.eot');src: url('common/font/295157_E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_E_0.woff') format('woff'),url('common/font/295157_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Semibold';src: url('common/font/295157_F_0.eot');src: url('common/font/295157_F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_F_0.woff') format('woff'),url('common/font/295157_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-ExtrabldIt';src: url('common/font/295157_10_0.eot');src: url('common/font/295157_10_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_10_0.woff') format('woff'),url('common/font/295157_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-ExtrabldIt';src: url('common/font/295157_11_0.eot');src: url('common/font/295157_11_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_11_0.woff') format('woff'),url('common/font/295157_11_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Extrabld';src: url('common/font/295157_12_0.eot');src: url('common/font/295157_12_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_12_0.woff') format('woff'),url('common/font/295157_12_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Extrabld';src: url('common/font/295157_13_0.eot');src: url('common/font/295157_13_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_13_0.woff') format('woff'),url('common/font/295157_13_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Thin';src: url('common/font/295157_14_0.eot');src: url('common/font/295157_14_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_14_0.woff') format('woff'),url('common/font/295157_14_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Thin';src: url('common/font/295157_15_0.eot');src: url('common/font/295157_15_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_15_0.woff') format('woff'),url('common/font/295157_15_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-ThinIt';src: url('common/font/295157_16_0.eot');src: url('common/font/295157_16_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_16_0.woff') format('woff'),url('common/font/295157_16_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-ThinIt';src: url('common/font/295157_17_0.eot');src: url('common/font/295157_17_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_17_0.woff') format('woff'),url('common/font/295157_17_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Regular';src: url('common/font/295157_18_0.eot');src: url('common/font/295157_18_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_18_0.woff') format('woff'),url('common/font/295157_18_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-SemiboldIt';src: url('common/font/295157_19_0.eot');src: url('common/font/295157_19_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_19_0.woff') format('woff'),url('common/font/295157_19_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-BlackIt';src: url('common/font/295157_1A_0.eot');src: url('common/font/295157_1A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1A_0.woff') format('woff'),url('common/font/295157_1A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Bold';src: url('common/font/295157_1B_0.eot');src: url('common/font/295157_1B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1B_0.woff') format('woff'),url('common/font/295157_1B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Bold';src: url('common/font/295157_1C_0.eot');src: url('common/font/295157_1C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1C_0.woff') format('woff'),url('common/font/295157_1C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-SemiboldIt';src: url('common/font/295157_1D_0.eot');src: url('common/font/295157_1D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1D_0.woff') format('woff'),url('common/font/295157_1D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Black';src: url('common/font/295157_1E_0.eot');src: url('common/font/295157_1E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1E_0.woff') format('woff'),url('common/font/295157_1E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-ThinIt';src: url('common/font/295157_1F_0.eot');src: url('common/font/295157_1F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_1F_0.woff') format('woff'),url('common/font/295157_1F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Extrabld';src: url('common/font/295157_20_0.eot');src: url('common/font/295157_20_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_20_0.woff') format('woff'),url('common/font/295157_20_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-RegularIt';src: url('common/font/295157_21_0.eot');src: url('common/font/295157_21_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_21_0.woff') format('woff'),url('common/font/295157_21_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-RegularIt';src: url('common/font/295157_22_0.eot');src: url('common/font/295157_22_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_22_0.woff') format('woff'),url('common/font/295157_22_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Thin';src: url('common/font/295157_23_0.eot');src: url('common/font/295157_23_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_23_0.woff') format('woff'),url('common/font/295157_23_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Regular';src: url('common/font/295157_24_0.eot');src: url('common/font/295157_24_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_24_0.woff') format('woff'),url('common/font/295157_24_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-ExtrabldIt';src: url('common/font/295157_25_0.eot');src: url('common/font/295157_25_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_25_0.woff') format('woff'),url('common/font/295157_25_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-LightIt';src: url('common/font/295157_26_0.eot');src: url('common/font/295157_26_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_26_0.woff') format('woff'),url('common/font/295157_26_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Bold';src: url('common/font/295157_27_0.eot');src: url('common/font/295157_27_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_27_0.woff') format('woff'),url('common/font/295157_27_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Bold';src: url('common/font/295157_28_0.eot');src: url('common/font/295157_28_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_28_0.woff') format('woff'),url('common/font/295157_28_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Semibold';src: url('common/font/295157_29_0.eot');src: url('common/font/295157_29_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_29_0.woff') format('woff'),url('common/font/295157_29_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-BlackIt';src: url('common/font/295157_2A_0.eot');src: url('common/font/295157_2A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2A_0.woff') format('woff'),url('common/font/295157_2A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-BoldIt';src: url('common/font/295157_2B_0.eot');src: url('common/font/295157_2B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2B_0.woff') format('woff'),url('common/font/295157_2B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-RegularIt';src: url('common/font/295157_2C_0.eot');src: url('common/font/295157_2C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2C_0.woff') format('woff'),url('common/font/295157_2C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Bold';src: url('common/font/295157_2D_0.eot');src: url('common/font/295157_2D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2D_0.woff') format('woff'),url('common/font/295157_2D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Bold';src: url('common/font/295157_2E_0.eot');src: url('common/font/295157_2E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2E_0.woff') format('woff'),url('common/font/295157_2E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-BlackIt';src: url('common/font/295157_2F_0.eot');src: url('common/font/295157_2F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_2F_0.woff') format('woff'),url('common/font/295157_2F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-BoldIt';src: url('common/font/295157_30_0.eot');src: url('common/font/295157_30_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_30_0.woff') format('woff'),url('common/font/295157_30_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-BlackIt';src: url('common/font/295157_31_0.eot');src: url('common/font/295157_31_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_31_0.woff') format('woff'),url('common/font/295157_31_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Semibold';src: url('common/font/295157_32_0.eot');src: url('common/font/295157_32_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_32_0.woff') format('woff'),url('common/font/295157_32_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Light';src: url('common/font/295157_33_0.eot');src: url('common/font/295157_33_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_33_0.woff') format('woff'),url('common/font/295157_33_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-SemiboldIt';src: url('common/font/295157_34_0.eot');src: url('common/font/295157_34_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_34_0.woff') format('woff'),url('common/font/295157_34_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-BlackIt';src: url('common/font/295157_35_0.eot');src: url('common/font/295157_35_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_35_0.woff') format('woff'),url('common/font/295157_35_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Black';src: url('common/font/295157_36_0.eot');src: url('common/font/295157_36_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_36_0.woff') format('woff'),url('common/font/295157_36_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Semibold';src: url('common/font/295157_37_0.eot');src: url('common/font/295157_37_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_37_0.woff') format('woff'),url('common/font/295157_37_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-BoldIt';src: url('common/font/295157_38_0.eot');src: url('common/font/295157_38_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_38_0.woff') format('woff'),url('common/font/295157_38_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-RegularIt';src: url('common/font/295157_39_0.eot');src: url('common/font/295157_39_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_39_0.woff') format('woff'),url('common/font/295157_39_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Extrabld';src: url('common/font/295157_3A_0.eot');src: url('common/font/295157_3A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3A_0.woff') format('woff'),url('common/font/295157_3A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Black';src: url('common/font/295157_3B_0.eot');src: url('common/font/295157_3B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3B_0.woff') format('woff'),url('common/font/295157_3B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Light';src: url('common/font/295157_3C_0.eot');src: url('common/font/295157_3C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3C_0.woff') format('woff'),url('common/font/295157_3C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Regular';src: url('common/font/295157_3D_0.eot');src: url('common/font/295157_3D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3D_0.woff') format('woff'),url('common/font/295157_3D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-LightIt';src: url('common/font/295157_3E_0.eot');src: url('common/font/295157_3E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3E_0.woff') format('woff'),url('common/font/295157_3E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-RegularIt';src: url('common/font/295157_3F_0.eot');src: url('common/font/295157_3F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_3F_0.woff') format('woff'),url('common/font/295157_3F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-LightIt';src: url('common/font/295157_40_0.eot');src: url('common/font/295157_40_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_40_0.woff') format('woff'),url('common/font/295157_40_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Black';src: url('common/font/295157_41_0.eot');src: url('common/font/295157_41_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_41_0.woff') format('woff'),url('common/font/295157_41_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Black';src: url('common/font/295157_42_0.eot');src: url('common/font/295157_42_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_42_0.woff') format('woff'),url('common/font/295157_42_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-BoldIt';src: url('common/font/295157_43_0.eot');src: url('common/font/295157_43_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_43_0.woff') format('woff'),url('common/font/295157_43_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Regular';src: url('common/font/295157_44_0.eot');src: url('common/font/295157_44_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_44_0.woff') format('woff'),url('common/font/295157_44_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Extrabld';src: url('common/font/295157_45_0.eot');src: url('common/font/295157_45_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_45_0.woff') format('woff'),url('common/font/295157_45_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-Extrabld';src: url('common/font/295157_46_0.eot');src: url('common/font/295157_46_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_46_0.woff') format('woff'),url('common/font/295157_46_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSCond-ExtrabldIt';src: url('common/font/295157_47_0.eot');src: url('common/font/295157_47_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_47_0.woff') format('woff'),url('common/font/295157_47_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaACond-Regular';src: url('common/font/295157_48_0.eot');src: url('common/font/295157_48_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_48_0.woff') format('woff'),url('common/font/295157_48_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-SemiboldIt';src: url('common/font/295157_49_0.eot');src: url('common/font/295157_49_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_49_0.woff') format('woff'),url('common/font/295157_49_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Light';src: url('common/font/295157_4A_0.eot');src: url('common/font/295157_4A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4A_0.woff') format('woff'),url('common/font/295157_4A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Semibold';src: url('common/font/295157_4B_0.eot');src: url('common/font/295157_4B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4B_0.woff') format('woff'),url('common/font/295157_4B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Regular';src: url('common/font/295157_4C_0.eot');src: url('common/font/295157_4C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4C_0.woff') format('woff'),url('common/font/295157_4C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Light';src: url('common/font/295157_4D_0.eot');src: url('common/font/295157_4D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4D_0.woff') format('woff'),url('common/font/295157_4D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-ThinIt';src: url('common/font/295157_4E_0.eot');src: url('common/font/295157_4E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4E_0.woff') format('woff'),url('common/font/295157_4E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-BlackIt';src: url('common/font/295157_4F_0.eot');src: url('common/font/295157_4F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_4F_0.woff') format('woff'),url('common/font/295157_4F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-Thin';src: url('common/font/295157_50_0.eot');src: url('common/font/295157_50_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_50_0.woff') format('woff'),url('common/font/295157_50_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-LightIt';src: url('common/font/295157_51_0.eot');src: url('common/font/295157_51_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_51_0.woff') format('woff'),url('common/font/295157_51_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaAExCn-RegularIt';src: url('common/font/295157_52_0.eot');src: url('common/font/295157_52_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_52_0.woff') format('woff'),url('common/font/295157_52_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaSExCn-Black';src: url('common/font/295157_53_0.eot');src: url('common/font/295157_53_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_53_0.woff') format('woff'),url('common/font/295157_53_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Light';src: url('common/font/295157_54_0.eot');src: url('common/font/295157_54_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_54_0.woff') format('woff'),url('common/font/295157_54_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-LightIt';src: url('common/font/295157_55_0.eot');src: url('common/font/295157_55_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_55_0.woff') format('woff'),url('common/font/295157_55_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-ThinIt';src: url('common/font/295157_56_0.eot');src: url('common/font/295157_56_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_56_0.woff') format('woff'),url('common/font/295157_56_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-ExtrabldIt';src: url('common/font/295157_57_0.eot');src: url('common/font/295157_57_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_57_0.woff') format('woff'),url('common/font/295157_57_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-BoldIt';src: url('common/font/295157_58_0.eot');src: url('common/font/295157_58_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_58_0.woff') format('woff'),url('common/font/295157_58_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaT-Thin';src: url('common/font/295157_59_0.eot');src: url('common/font/295157_59_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_59_0.woff') format('woff'),url('common/font/295157_59_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-SemiboldIt';src: url('common/font/295157_5A_0.eot');src: url('common/font/295157_5A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5A_0.woff') format('woff'),url('common/font/295157_5A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Semibold';src: url('common/font/295157_5B_0.eot');src: url('common/font/295157_5B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5B_0.woff') format('woff'),url('common/font/295157_5B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-ExtrabldIt';src: url('common/font/295157_5C_0.eot');src: url('common/font/295157_5C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5C_0.woff') format('woff'),url('common/font/295157_5C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Extrabld';src: url('common/font/295157_5D_0.eot');src: url('common/font/295157_5D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5D_0.woff') format('woff'),url('common/font/295157_5D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Thin';src: url('common/font/295157_5E_0.eot');src: url('common/font/295157_5E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5E_0.woff') format('woff'),url('common/font/295157_5E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-ThinIt';src: url('common/font/295157_5F_0.eot');src: url('common/font/295157_5F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_5F_0.woff') format('woff'),url('common/font/295157_5F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Semibold';src: url('common/font/295157_60_0.eot');src: url('common/font/295157_60_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_60_0.woff') format('woff'),url('common/font/295157_60_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Black';src: url('common/font/295157_61_0.eot');src: url('common/font/295157_61_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_61_0.woff') format('woff'),url('common/font/295157_61_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-LightIt';src: url('common/font/295157_62_0.eot');src: url('common/font/295157_62_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_62_0.woff') format('woff'),url('common/font/295157_62_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Thin';src: url('common/font/295157_63_0.eot');src: url('common/font/295157_63_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_63_0.woff') format('woff'),url('common/font/295157_63_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Light';src: url('common/font/295157_64_0.eot');src: url('common/font/295157_64_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_64_0.woff') format('woff'),url('common/font/295157_64_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-BoldIt';src: url('common/font/295157_65_0.eot');src: url('common/font/295157_65_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_65_0.woff') format('woff'),url('common/font/295157_65_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Light';src: url('common/font/295157_66_0.eot');src: url('common/font/295157_66_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_66_0.woff') format('woff'),url('common/font/295157_66_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-RegularIt';src: url('common/font/295157_67_0.eot');src: url('common/font/295157_67_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_67_0.woff') format('woff'),url('common/font/295157_67_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-SemiboldIt';src: url('common/font/295157_68_0.eot');src: url('common/font/295157_68_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_68_0.woff') format('woff'),url('common/font/295157_68_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Extrabld';src: url('common/font/295157_69_0.eot');src: url('common/font/295157_69_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_69_0.woff') format('woff'),url('common/font/295157_69_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Regular';src: url('common/font/295157_6A_0.eot');src: url('common/font/295157_6A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6A_0.woff') format('woff'),url('common/font/295157_6A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-ThinIt';src: url('common/font/295157_6B_0.eot');src: url('common/font/295157_6B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6B_0.woff') format('woff'),url('common/font/295157_6B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-BlackIt';src: url('common/font/295157_6C_0.eot');src: url('common/font/295157_6C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6C_0.woff') format('woff'),url('common/font/295157_6C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Black';src: url('common/font/295157_6D_0.eot');src: url('common/font/295157_6D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6D_0.woff') format('woff'),url('common/font/295157_6D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Semibold';src: url('common/font/295157_6E_0.eot');src: url('common/font/295157_6E_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6E_0.woff') format('woff'),url('common/font/295157_6E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Bold';src: url('common/font/295157_6F_0.eot');src: url('common/font/295157_6F_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_6F_0.woff') format('woff'),url('common/font/295157_6F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Black';src: url('common/font/295157_70_0.eot');src: url('common/font/295157_70_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_70_0.woff') format('woff'),url('common/font/295157_70_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-BlackIt';src: url('common/font/295157_71_0.eot');src: url('common/font/295157_71_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_71_0.woff') format('woff'),url('common/font/295157_71_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Extrabld';src: url('common/font/295157_72_0.eot');src: url('common/font/295157_72_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_72_0.woff') format('woff'),url('common/font/295157_72_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-RegularIt';src: url('common/font/295157_73_0.eot');src: url('common/font/295157_73_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_73_0.woff') format('woff'),url('common/font/295157_73_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-LightIt';src: url('common/font/295157_74_0.eot');src: url('common/font/295157_74_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_74_0.woff') format('woff'),url('common/font/295157_74_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-RegularIt';src: url('common/font/295157_75_0.eot');src: url('common/font/295157_75_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_75_0.woff') format('woff'),url('common/font/295157_75_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-ExtrabldIt';src: url('common/font/295157_76_0.eot');src: url('common/font/295157_76_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_76_0.woff') format('woff'),url('common/font/295157_76_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-BlackIt';src: url('common/font/295157_77_0.eot');src: url('common/font/295157_77_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_77_0.woff') format('woff'),url('common/font/295157_77_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-BoldIt';src: url('common/font/295157_78_0.eot');src: url('common/font/295157_78_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_78_0.woff') format('woff'),url('common/font/295157_78_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-SemiboldIt';src: url('common/font/295157_79_0.eot');src: url('common/font/295157_79_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_79_0.woff') format('woff'),url('common/font/295157_79_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Regular';src: url('common/font/295157_7A_0.eot');src: url('common/font/295157_7A_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_7A_0.woff') format('woff'),url('common/font/295157_7A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaExCn-Regular';src: url('common/font/295157_7B_0.eot');src: url('common/font/295157_7B_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_7B_0.woff') format('woff'),url('common/font/295157_7B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Bold';src: url('common/font/295157_7C_0.eot');src: url('common/font/295157_7C_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_7C_0.woff') format('woff'),url('common/font/295157_7C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaCond-Bold';src: url('common/font/295157_7D_0.eot');src: url('common/font/295157_7D_0.eot?#iefix') format('embedded-opentype'),url('common/font/295157_7D_0.woff') format('woff'),url('common/font/295157_7D_0.ttf') format('truetype');}
+ 
+
+/*
+ Grid
+ 	1 Container Define
+ 	2 col-lg (width >= 1024)
+ 	3 col-md (1024 > width > 768)
+ 	4 col-sm (768 > width > 480)
+ 	5 col-xs (480 > width > 320)
+ */
+
+
+/** 1 Container Define **/
+	.container:before,
+	.container:after {
+		content: " ";
+		display: table;
+	}
+	.container:after {
+		clear: both;
+	}
+	.row:before,
+	.row:after {
+		content: " ";
+		display: table;
+	}
+	.row:after {
+		clear: both;
+	}
+	
+/** 3 col-md (1024 > width > 768) **/
+	@media (min-width: 0px) and (max-width: 1023px) {
+		.container {
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 748px;
+		}
+		.row {
+			margin-left: -10px;
+			margin-right: -10px;
+		}		
+		.col-md-1,
+		.col-md-2,
+		.col-md-3,
+		.col-md-4,
+		.col-md-5,
+		.col-md-6,
+		.col-md-7,
+		.col-md-8,
+		.col-md-9,
+		.col-md-10,
+		.col-md-11,
+		.col-md-12 {
+			float: left;
+			position: relative;
+			min-height: 1px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.col-md-1 {
+			width: 8.333333333333332%;
+		}
+		.col-md-2 {
+			width: 16.666666666666664%;
+		}
+		.col-md-3 {
+			width: 25%;
+		}
+		.col-md-4 {
+			width: 33.33333333333333%;
+		}
+		.col-md-5 {
+			width: 41.66666666666667%;
+		}
+		.col-md-6 {
+			width: 50%;
+		}
+		.col-md-7 {
+			width: 58.333333333333336%;
+		}
+		.col-md-8 {
+			width: 66.66666666666666%;
+		}
+		.col-md-9 {
+			width: 75%;
+		}
+		.col-md-10 {
+			width: 83.33333333333334%;
+		}
+		.col-md-11 {
+			width: 91.66666666666666%;
+		}
+		.col-md-12 {
+			width: 100%;
+		}
+		.col-md-push-0 {
+			left: auto;
+		}
+		.col-md-push-1 {
+			left: 8.333333333333332%;
+		}
+		.col-md-push-2 {
+			left: 16.666666666666664%;
+		}
+		.col-md-push-3 {
+			left: 25%;
+		}
+		.col-md-push-4 {
+			left: 33.33333333333333%;
+		}
+		.col-md-push-5 {
+			left: 41.66666666666667%;
+		}
+		.col-md-push-6 {
+			left: 50%;
+		}
+		.col-md-push-7 {
+			left: 58.333333333333336%;
+		}
+		.col-md-push-8 {
+			left: 66.66666666666666%;
+		}
+		.col-md-push-9 {
+			left: 75%;
+		}
+		.col-md-push-10 {
+			left: 83.33333333333334%;
+		}
+		.col-md-push-11 {
+			left: 91.66666666666666%;
+		}
+		.col-md-pull-0 {
+			right: auto;
+		}
+		.col-md-pull-1 {
+			right: 8.333333333333332%;
+		}
+		.col-md-pull-2 {
+			right: 16.666666666666664%;
+		}
+		.col-md-pull-3 {
+			right: 25%;
+		}
+		.col-md-pull-4 {
+			right: 33.33333333333333%;
+		}
+		.col-md-pull-5 {
+			right: 41.66666666666667%;
+		}
+		.col-md-pull-6 {
+			right: 50%;
+		}
+		.col-md-pull-7 {
+			right: 58.333333333333336%;
+		}
+		.col-md-pull-8 {
+			right: 66.66666666666666%;
+		}
+		.col-md-pull-9 {
+			right: 75%;
+		}
+		.col-md-pull-10 {
+			right: 83.33333333333334%;
+		}
+		.col-md-pull-11 {
+			right: 91.66666666666666%;
+		}
+		.col-md-offset-0 {
+			margin-left: 0;
+		}
+		.col-md-offset-1 {
+			margin-left: 8.333333333333332%;
+		}
+		.col-md-offset-2 {
+			margin-left: 16.666666666666664%;
+		}
+		.col-md-offset-3 {
+			margin-left: 25%;
+		}
+		.col-md-offset-4 {
+			margin-left: 33.33333333333333%;
+		}
+		.col-md-offset-5 {
+			margin-left: 41.66666666666667%;
+		}
+		.col-md-offset-6 {
+			margin-left: 50%;
+		}
+		.col-md-offset-7 {
+			margin-left: 58.333333333333336%;
+		}
+		.col-md-offset-8 {
+			margin-left: 66.66666666666666%;
+		}
+		.col-md-offset-9 {
+			margin-left: 75%;
+		}
+		.col-md-offset-10 {
+			margin-left: 83.33333333333334%;
+		}
+		.col-md-offset-11 {
+			margin-left: 91.66666666666666%;
+		}
+	}
+	
+/** 2 col-lg (width >= 1024) **/
+	@media (min-width: 1024px) {
+		.container {
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 980px;
+		}
+		.row {
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+		.container > .row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.col-lg-1,
+		.col-lg-2,
+		.col-lg-3,
+		.col-lg-4,
+		.col-lg-5,
+		.col-lg-6,
+		.col-lg-7,
+		.col-lg-8,
+		.col-lg-9,
+		.col-lg-10,
+		.col-lg-11,
+		.col-lg-12 {
+			float: left;
+			position: relative;
+			min-height: 1px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.col-lg-1 {
+			width: 8.333333333333332%;
+		}
+		.col-lg-2 {
+			width: 16.666666666666664%;
+		}
+		.col-lg-3 {
+			width: 25%;
+		}
+		.col-lg-4 {
+			width: 33.33333333333333%;
+		}
+		.col-lg-5 {
+			width: 41.66666666666667%;
+		}
+		.col-lg-6 {
+			width: 50%;
+		}
+		.col-lg-7 {
+			width: 58.333333333333336%;
+		}
+		.col-lg-8 {
+			width: 66.66666666666666%;
+		}
+		.col-lg-9 {
+			width: 75%;
+		}
+		.col-lg-10 {
+			width: 83.33333333333334%;
+		}
+		.col-lg-11 {
+			width: 91.66666666666666%;
+		}
+		.col-lg-12 {
+			width: 100%;
+		}
+		.col-lg-push-0 {
+			left: auto;
+		}
+		.col-lg-push-1 {
+			left: 8.333333333333332%;
+		}
+		.col-lg-push-2 {
+			left: 16.666666666666664%;
+		}
+		.col-lg-push-3 {
+			left: 25%;
+		}
+		.col-lg-push-4 {
+			left: 33.33333333333333%;
+		}
+		.col-lg-push-5 {
+			left: 41.66666666666667%;
+		}
+		.col-lg-push-6 {
+			left: 50%;
+		}
+		.col-lg-push-7 {
+			left: 58.333333333333336%;
+		}
+		.col-lg-push-8 {
+			left: 66.66666666666666%;
+		}
+		.col-lg-push-9 {
+			left: 75%;
+		}
+		.col-lg-push-10 {
+			left: 83.33333333333334%;
+		}
+		.col-lg-push-11 {
+			left: 91.66666666666666%;
+		}
+		.col-lg-pull-0 {
+			right: auto;
+		}
+		.col-lg-pull-1 {
+			right: 8.333333333333332%;
+		}
+		.col-lg-pull-2 {
+			right: 16.666666666666664%;
+		}
+		.col-lg-pull-3 {
+			right: 25%;
+		}
+		.col-lg-pull-4 {
+			right: 33.33333333333333%;
+		}
+		.col-lg-pull-5 {
+			right: 41.66666666666667%;
+		}
+		.col-lg-pull-6 {
+			right: 50%;
+		}
+		.col-lg-pull-7 {
+			right: 58.333333333333336%;
+		}
+		.col-lg-pull-8 {
+			right: 66.66666666666666%;
+		}
+		.col-lg-pull-9 {
+			right: 75%;
+		}
+		.col-lg-pull-10 {
+			right: 83.33333333333334%;
+		}
+		.col-lg-pull-11 {
+			right: 91.66666666666666%;
+		}
+		.col-lg-offset-0 {
+			margin-left: 0;
+		}
+		.col-lg-offset-1 {
+			margin-left: 8.333333333333332%;
+		}
+		.col-lg-offset-2 {
+			margin-left: 16.666666666666664%;
+		}
+		.col-lg-offset-3 {
+			margin-left: 25%;
+		}
+		.col-lg-offset-4 {
+			margin-left: 33.33333333333333%;
+		}
+		.col-lg-offset-5 {
+			margin-left: 41.66666666666667%;
+		}
+		.col-lg-offset-6 {
+			margin-left: 50%;
+		}
+		.col-lg-offset-7 {
+			margin-left: 58.333333333333336%;
+		}
+		.col-lg-offset-8 {
+			margin-left: 66.66666666666666%;
+		}
+		.col-lg-offset-9 {
+			margin-left: 75%;
+		}
+		.col-lg-offset-10 {
+			margin-left: 83.33333333333334%;
+		}
+		.col-lg-offset-11 {
+			margin-left: 91.66666666666666%;
+		}
+	}
+
+/* 
+ Alerts
+	1 Default Alerts
+	2 Page Level Error
+	3 Inline Verification Error
+	4 Form Tip Message
+ */
+
+
+/** 1 Default Alerts **/
+	.error, .page-error, .inline-error{
+		color: #ff0000;
+	}
+	
+	.block-success {
+		display: block;
+		width: 100%;
+		color: #ff0000;
+		margin-top: 5px;
+	}
+	
+	select.error {
+		padding: 3px 0;
+	}
+
+/* 2 Page Level Error */
+	.page-error > p{
+		position: relative;
+		font: 21px ProximaNovaCond-Bold, "Arial Bold";
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		color: #595454;
+		padding-left: 22px;
+	}
+	
+	.page-error > ul > li {
+		line-height: 18px;
+		font-size: 15px;
+		list-style: none;
+	}
+	
+	.page-error > span {
+		display: block;
+		margin-top: 5px;
+		padding: 0 0 0 20px;
+		position: relative;
+	}
+
+/** 3 Inline Verification Error **/
+	.inline-error{
+		font-family: ProximaNova-Regular, Arial;
+		font-size: 13px;
+		padding: 0 0 0 20px;
+		position: relative;
+		line-height: 16px;
+		display: block;
+		margin-top: 5px;
+		min-height: 16px;
+	}
+	
+	.inline-error.secondary{
+		padding-bottom: 30px;
+	}
+	
+	.inline-error:after,
+	.page-error > p:after,
+	.page-error > span:after {
+		background: url("common/icon.png") no-repeat -60px -153px;
+		content: "";
+		width: 16px;
+		height: 16px;
+		left: 0;
+		position: absolute;
+		top: 0px;
+	}
+	
+	.page-error > p:after {
+		top: 5px;
+	}
+
+/** 4 Form Tip Message **/
+	.form-tip {
+		position: relative;
+		padding: 22px 20px 22px 30px;
+		background: #ededed;
+	}
+	
+	.form-tip > .ft-header {
+		font-family: ProximaNova-Bold;
+	}
+	
+	.form-tip > .ft-body {
+		margin-top: 15px;
+	}
+	
+	.ft-item {
+		position: relative;
+		min-height: 19px;
+		margin-top: 10px;
+	}
+	
+	.ft-item > .fcheckbox {
+		position: absolute;
+	}
+	
+	.ft-item > .fcheckbox.error{
+		border: 1px solid #FF0000;
+		background: #FFF;
+	}
+	
+	.ft-item > p {
+		line-height: 16px;
+		padding: 2px 0 2px 30px;
+	}
+	
+	.form-tip:after {
+		position: absolute;
+		top: 12px;
+		left: -24px;
+		content: " ";
+		pointer-events: none;
+		border-width: 12px;
+		border-style: solid;
+		border-color: transparent #ededed transparent transparent;
+	}
+
+
+	.warnToCheckout-container {
+		padding: 18px;
+		background: #feedd3;
+		clear: both;
+	}
+
+	.warnToCheckout-container p {
+		margin-left: 40px;
+	}
+
+	.warnToCheckout-container.warning {
+		color: #faa517;
+	}
+
+	.warnToCheckout-container.error {
+		color: #ed1b24;
+		background: #fce6e8;
+	}
+
+	.contentwarning .warning-txt {
+		color: #faa519;
+		font-family: ProximaNova-Semibold, "Arial Bold";
+	}
+
+	.contentwarning .warning-txt {
+		margin-bottom: 5px;
+		color: #faa519;
+		font-family: ProximaNova-Semibold, "Arial Bold";
+		line-height: 1;
+	}
+
+	.contenterror .error-txt {
+		margin-bottom: 5px;
+		color: #ed1b24;
+		font-family: ProximaNova-Bold, "Arial Bold";
+		line-height: 1;
+	}
+
+	.contenterror {
+		background: #fce6e8;
+		border-top: 1px solid #ed1b24 !important;
+	}
+
+	.price-error {
+		display: inline-block;
+		padding-bottom: 5px;
+		font-size: 16px;
+		font-family: ProximaNova-Semibold;
+		color: #ff0000;
+		line-height: 1.2;
+	}
+
+	.ps-error.color-list a {
+		border: 1px solid #ff0000;
+	}
+
+
+/*
+ Form 
+	1 Fieldset styling
+	2 Form Group
+	3 Form Elements Formatting
+		3.1 Button
+			3.1.1 Default Button
+			3.1.2 Primary Button
+			3.1.3 Secondary Button
+			3.1.4 Tertiary Button
+		3.2 Text Input
+		3.3 Select
+			3.3.1 Primary Select
+			3.3.2 Secondary Select
+			3.3.3 Customized
+		3.4 Textarea
+		3.5 Radio & Checkbox
+	4 Inline Filed
+	5 Require Elements
+	6 Disabled Elements
+	7 Error Elements
+ */
+
+
+/** 1 Fieldset styling **/
+	.fieldset > dl > dt,
+	.fieldset > dl > dd{
+		float: left;
+	}
+	
+	.fieldset > dl + dl{
+		margin-top: 10px;
+	}
+	
+	.fieldset > dl > dt{
+		width: 140px;
+	}
+	
+	.fieldset > dl.button-box{
+		margin-top: 20px;
+	}
+	
+	.fieldset > dl > dt + dd{
+		padding-left: 5px;
+	}
+	
+	.fieldset > dl:before,
+	.fieldset > dl:after{
+		content: " ";
+		display: table;
+	}
+	
+	.fieldset > dl:after{
+		clear: both;
+	}
+	
+/** 2 Form Group **/
+	.form-group {
+		margin-bottom: 25px;
+		padding-left: 20px;
+	}
+	
+	.form-control {
+		display: block;
+		width: 100%;
+		vertical-align: middle;
+	}
+	
+	.form-btn {
+		padding-left: 20px;
+	}
+
+/** 3 Form Elements Formatting **/
+	button, input, select, textarea{
+		vertical-align: baseline;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		line-height: normal;
+		border-radius: 0;
+		font-size: 100%;
+		outline: none;
+		border: 0;
+		-webkit-appearance: none;
+		-moz-appearance: 0;
+	}
+
+	label {
+		font-family: ProximaNova-Bold, "Arial Bold";
+		display: inline-block;
+		margin-bottom: 5px;
+		font-size: 16px;
+		color: #03324c;
+	}
+
+	label > em {
+		color: #595454;
+		font-weight: normal;
+		font-style: normal;
+		font-family: TisaOT-Ita, Georgia;
+		font-style: italic\0;
+		font-size: 14px\0;
+	}
+
+/* 3.1 Button */
+	/* 3.1.1 Default Button */
+	.button {
+		cursor: pointer;
+		padding: 5px 8px;
+		line-height: 25px;
+		display: inline-block;
+		cursor: pointer;
+		border-radius: 0;
+		-webkit-appearance: none;
+		-moz-appearance: 0;
+		backface-visibility:hidden;
+		-webkit-backface-visibility:hidden;
+		-moz-backface-visibility:hidden;
+		-ms-backface-visibility:hidden;
+	}
+	.button:focus,
+	.button.primary:focus,
+	.button.secondary:focus,
+	.button.tertiary:focus{
+		background-color: #36bae2; 
+		color: #ffffff;
+	}
+	.button.hover,
+	.button.primary.hover,
+	.button.secondary.hover,
+	.button.tertiary.hover{
+		background-color: #36bae2; 
+		color: #ffffff;
+	}
+	.button[disabled],
+	.button.disabled {
+		background: #b2b2b2 !important;
+		cursor: default !important;
+		color: #ffffff !important;
+	}
+	
+	.button.large{
+		height: 55px;
+		line-height: 17px;
+	}
+
+	.button.primary.no-focus:focus {
+		background: #92bc02;
+	}
+	
+	/* 3.1.2 Primary Button */
+	.button.primary{
+		font-family: ProximaNova-Bold, "Arial Bold";
+		text-transform: uppercase;
+		background: #92bc02;
+		text-align: center;
+		font-size: 18px;
+		color: #f6f6f6;
+		height: 45px;
+	}
+	.button.primary.short  { width: 100px; }
+	.button.primary.middle { width: 200px; }
+	.button.primary.long   { width: 254px; }
+	
+	/* 3.1.3 Secondary Button */
+	.button.secondary{
+		font-family: ProximaNova-Semibold, "Arial Bold";
+		background: #015581;
+		text-align: center;
+		font-size: 16px;
+		color: #f6f6f6;
+		height: 35px;
+	}
+	.button.secondary.short { width: 140px; }
+	.button.secondary.long  { width: 240px; }
+	
+	/* 3.1.4 Tertiary Button */
+	.button.tertiary{
+		font-family: ProximaNova-Semibold, "Arial Bold";
+		background: #d8e8f5;
+		text-align: center;
+		font-size: 16px;
+		color: #00415c;
+		height: 35px;
+	}
+	.button.tertiary.short  { width: 90px; }
+	.button.tertiary.middle { width: 140px; }
+	.button.tertiary.long   { width: 172px; }
+	
+/* 3.2 Text Input */
+	.text-input{
+		border: 1px solid #004469;
+		font: 13px ProximaNova-Regular, Arial;
+		color: #828282;
+		padding: 4px 8px;
+	}
+	
+	.text-input.gray-border{
+		border-color: #857f7f;	
+	}
+	
+	.text-input.short,
+	.text-input.qty{
+		width: 73px;
+	}
+	
+	.text-input.mini {
+		width: 60px;
+	}
+	
+	.text-input{
+		font-size: 16px;
+		height: 30px;
+	}
+	
+	.text-input:disabled, 
+	.text-input.disabled {
+		border-color: #cecccd !important;
+		background: #FFF !important;
+		color: #cecccd !important;
+	}
+	
+	.text-input.placeholder{
+		color: #CCC;
+	}
+	
+	.text-input.strong{
+		font: 16px ProximaNova-bold, "Arial Bold";
+		color: #595554;
+	}
+	
+	.text-input.search{
+		border: 0;
+		width: 340px;
+	}
+	
+/** 3.3 Select **/
+	select{
+		font-size: 20px;
+		filter:alpha(opacity=0);
+		-moz-opacity:0;
+		-khtml-opacity:0;
+		opacity: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 11;
+		top: 0;
+		left: 0;
+		position: absolute;
+		visibility: visible;
+	}
+	
+	.select{
+		font: 13px ProximaNova-Regular, Arial;
+		display: inline-block;
+		position: relative;
+		color: #828282;
+		border: none;
+		height: 30px;
+		padding: 0;
+	}
+
+	.select.error {
+		color: #828282;
+	}
+	
+	.select-el {
+		position: relative;
+		display: inline-block;
+		z-index: 100;
+		height: 30px;
+		width: 100%;
+		outline: none;
+	}
+	
+	.sim-select {
+		background: #FFF;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 30px;
+		width: 100%;
+		z-index: 9;
+		outline: none;
+	}
+	
+	.sim-select.open {
+		z-index: 10;
+	}
+	
+	.sim-select input{
+		position: absolute;
+		border:	1px #ddd solid;
+		left: 0px;
+		z-index: -1;
+		top: 0px;
+		height: 0px;
+		width: 0px;
+		font-size: 0;
+	}
+	
+	.sim-head {
+		height: 30px;
+		background: #FFF;
+	}
+	
+	.sim-select .current {
+		color: #595454;
+		font-size: 13px;
+		padding: 0 8px;
+		cursor: default;
+		height: 30px;
+		display: block;
+		line-height: 28px;
+		white-space: nowrap;
+		overflow: hidden;
+		margin-right: 32px;
+	}
+	
+	.sim-arrow {
+		position: absolute;
+		right: 10px;
+		top: 12px;
+		width: 0;
+		height: 0;
+		border-top: 5px #03324c solid;
+		border-left: 5px transparent solid;
+		border-right: 5px transparent solid;
+		border-bottom: none;
+		cursor: pointer;
+	}
+	
+	.sim-select.open .sim-arrow {
+		border-bottom: 5px #03324c solid;
+		border-left: 5px transparent solid;
+		border-right: 5px transparent solid;
+		border-top: none;
+	}
+	
+	.sim-select .sim-head:before {
+		content: "";
+		border-left: 1px solid #616161;
+		display: block;
+		position: absolute;
+		right: 1px;
+		top: 5px;
+		width: 29px;
+		height: 20px;
+		pointer-events: none;
+		background: #FFF;
+	}
+	
+	.sim-select .sim-list {
+		display: none;
+		border-top: 1px #FFF solid;
+		-webkit-user-select: none; 
+		-webkit-user-drag: none; 
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.sim-select .sim-list ul {
+		max-height: 264px;
+		background-color: #f9f8f6;
+	}
+	
+	.sim-select .sim-list li {
+		padding: 7px 6px;
+		font-size: 13px;
+		cursor: pointer;
+		list-style-type: none;
+	}
+	
+	.sim-select .sim-list li.hover {
+		background: #36bae2;
+		color: #fff;
+	}
+	
+	.sim-select .sim-list li.disabled,
+	.sim-select .sim-list li.unavailable {
+		background: #dddddd;
+		cursor: default;
+	}
+	
+	.sim-select .sim-list li.disabled:hover,
+	.sim-select .sim-list li.unavailable:hover  {
+		background: #dddddd;
+		color: #828282;
+	}
+	
+	.select.error .sim-select .sim-head {
+		border: 1px solid #ff0000;
+	}
+	
+	.select .sim-select.open .sim-head {
+		border: 1px solid #e4e3e3;
+	}
+	
+	.select.error .sim-select.open .sim-head {
+		border: 1px solid #ff0000;
+	}
+	
+	.select .sim-select.open .sim-arrow {
+		border-bottom-color: #92bc02;
+	}
+	
+	/* 3.3.1 Primary Select */
+	.select.primary .sim-arrow {
+		border-top-color: #03324c;
+	}
+	
+	.select.primary .sim-select .sim-head {
+		border: 1px solid #00446a;
+	}
+	
+	/* 3.3.2 Secondary Select */
+	.select.secondary .sim-arrow {
+		border-top-color: #857f7f;
+	}
+	
+	.select.secondary .sim-select .sim-head{
+		border: 1px solid #857f7f;
+	}
+	
+	.select .sim-select.open .sim-head,
+	.select .sim-select.focus .sim-head {
+		border: 1px solid #e4e3e3;
+	}
+	
+	.select.secondary .current {
+		font-size: 16px;
+	}
+	
+	.select.secondary .sim-list li {
+		font-size: 16px;
+	}
+	
+	/* 3.3.3 Customized */
+	.select.middle,
+	.select.middle > select {
+		width: 140px;
+	}
+	
+	.select.long,
+	.select.long > select {
+		width: 280px;
+	}
+
+	.ps-error.select .sim-select .sim-head {
+		border-color: #ff0000;
+	}
+
+	.ps-error.select .sim-arrow {
+		border-top-color: #ff0000;
+	}
+
+	.ps-error.select .sim-head:before {
+		border-left: 1px solid #ff0000;
+	}
+
+	.ps-error.select .sim-select .current {
+		color: #ff0000;
+	}
+	
+/** 3.4 Textarea **/
+	.textarea{
+		border: 1px solid #004469;
+		border-radius: 0;
+		color: #828282;
+		font-family: ProximaNova-Regular, Arial;
+		font-size: 16px;
+		height: 118px;
+		line-height: 18px;
+		outline: none;
+		padding: 4px;
+		resize: none;
+		width: 378px;
+		vertical-align: baseline;
+		*vertical-align: middle;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+	}
+	
+	.textarea.short{
+		height: 46px;
+	}
+
+/** 3.5 Radio & Checkbox **/
+	.radio,
+	.checkbox{
+		cursor: pointer;
+		display: inline-block;
+		height: 20px;
+		line-height: 20px;
+		margin-right: 5px;
+		position: relative;
+		top: -2px;
+		vertical-align: middle;
+	}
+	
+	.radio input[type="radio"],
+	.checkbox input[type="checkbox"]{
+		margin: 3px 3px 3px 0;
+	}
+	
+	.radio span,
+	.checkbox span{
+		display: inline-block;
+		line-height: 1;
+		margin-top: 2px;
+		zoom: 1;
+		vertical-align: top;
+	}
+	
+	.fradio,
+	.fcheckbox {
+		display: inline-block;
+	   	padding: 0;
+		vertical-align: middle;
+		background-image: url("common/icon.png");
+		background-repeat: no-repeat;
+		border: none;
+		margin-right: 5px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+	}
+	
+	.fradio {
+		width: 16px;
+		height: 16px;
+		background-position: -61px -250px;
+	}
+	
+	.fcheckbox {
+		width: 20px;
+		height: 20px;
+		background-color: #FFF;
+		border: 1px #857f7f solid;
+		background-position: -122px -251px;
+	}
+	
+	.secondary .fcheckbox{
+		width: 20px;
+		height: 20px;
+		background-position: -240px -300px;
+		border: 1px #e3e3e3 solid;
+	}
+	
+	.fradio.fchecked {
+		background-position: -81px -250px;
+	}
+	
+	.fcheckbox.fchecked {
+		background-color: #92bc02;
+		background-position: -122px -251px;
+		border: 1px #857f7f solid;
+	}
+	
+	.secondary .fcheckbox.fchecked{
+		background-position: -260px -300px;
+		background-color: #92bc02;
+	}
+	
+	.fcheckbox.fdisabled{
+		background-position: -240px -320px;
+		border: 1px #e3e3e3 solid;
+	}
+	
+	.fcheckbox.fchecked.fdisabled{
+		background-position: -260px -320px;
+		border: 1px #b2b2b2 solid;
+	}
+	
+	label span{
+		font-family: ProximaNova-Regular;
+	}
+	
+/** 4 Inline Filed **/
+	.inline-filed:before,
+	.inline-filed:after {
+		content: " ";
+		display: table;
+	}
+	
+	.inline-filed:after {
+		clear: both;
+	}
+	
+	.inline-filed .text-input {
+		float: left;
+		width: 60px;
+		width: 56px\9;
+	}
+	
+	.inline-filed {
+		position: relative;
+		left: -9px;
+	}
+	
+	.inline-filed .input-bracket {
+		text-align: center;
+		float: left;
+		display: block;
+		color: #b8bfc4;
+		padding-top: 4px;
+		margin-right: 2px;
+		margin-left: 3px;
+		font-size: 16px;
+	}
+	
+	.type-filed{
+		float: left;
+		width: 144px;
+		margin-right: 20px;
+	}
+	
+	.phone-filed {
+		padding-right: 0;
+		float: left;
+	}
+	
+	.ext-filed {
+		float: left;
+		width: 71px;
+	}
+	
+	.phone-filed label span{
+		line-height: 1;
+	}
+
+	.phone-filed label,
+	.ext-filed label {
+		height: 16px;
+	}
+
+	.inline-filed > .third-input {
+		margin-left: 8px;
+	}
+	
+	
+/** 5 Require Elements **/
+	.require:after{
+		content: "*";
+		font-family: "Verdana";
+		position: relative;
+		margin-left: 3px;
+		top: 2px;
+	}
+	
+/** 6 Disabled Elements **/
+	.fieldset .text-input:disabled,
+	.fieldset .select select:disabled,
+	.fieldset .select.disabled:before,
+	.fieldset .textarea:disabled{
+		background: #EBEBE4 !important;
+		border: 1px solid #857f7f !important;
+	}
+	
+/** 7 Error Elements **/
+	.text-input.error{
+		border: 1px solid #FF0000 !important;
+		color: #FF0000 !important;
+	}
+
+	@media (max-width: 1023px) and (min-width: 0px) {
+		.text-input.short, 
+		.text-input.qty {
+			width: 50px;
+		}		
+		.button.secondary.short {
+			width: 104px;
+		}
+		.button.secondary {
+			height: auto;	
+		}
+
+		.button.secondary.long{
+			width: 166px;
+			padding: 7px 14px;
+			line-height: 20px;
+		}
+
+		.sim-select .sim-list ul {
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+	}
+
+/*
+ Icons
+	1 Default Icons
+	2 Customized
+ */
+ 
+
+/** 1 Default Icons **/
+	.icon{
+		display: inline-block; 
+		background: url(common/icon.png) no-repeat; 
+		overflow: hidden;
+	}
+
+/** 2 Customized **/
+	.icon.i-youtube{
+		width: 52px; 
+		height: 52px; 
+		background-position: 0 0;
+	}
+	
+	.icon.i-twitter{
+		width: 52px; 
+		height: 52px; 
+		background-position: -60px 0;
+	}
+	
+	.icon.i-pinterest{
+		width: 52px; 
+		height: 52px; 
+		background-position: -120px 0;
+	}
+	
+	.icon.i-houzz{
+		width: 52px; 
+		height: 52px; 
+		background-position: -180px 0;
+	}
+	
+	.icon.i-facebook{
+		width: 52px; 
+		height: 52px; 
+		background-position: -240px 0;
+	}
+	
+	.icon.i-currentstep{
+		width: 24px; 
+		height: 24px; 
+		background-position: -300px 0;
+	}
+	
+	.icon.i-alert{
+		width: 44px; 
+		height: 41px; 
+		background-position: 0 -60px;
+	}
+	
+	.icon.i-portrait{
+		width: 32px; 
+		height: 35px; 
+		background-position: -60px -60px;
+	}
+	
+	.icon.i-portrait-hover{
+		width: 32px; 
+		height: 35px; 
+		background-position: -120px -60px;
+	}
+	
+	.icon.i-pdfdown{
+		margin-bottom: -5px;
+		margin-right: 5px;
+		width: 19px; 
+		height: 26px; 
+		background-image: url(common/pdfdown.png);
+	}
+	
+	.icon.i-search{
+		width: 23px; 
+		height: 22px; 
+		background-position: -240px -60px;
+	}
+	
+	.icon.i-futurestep{
+		width: 24px; 
+		height: 24px; 
+		background-position: -300px -60px;
+	}
+	
+	.icon.i-cart{
+		width: 39px; 
+		height: 36px; 
+		background-position: 0 -120px;
+	}
+	
+	.icon.i-help{
+		width: 19px; 
+		height: 19px; 
+		background-position: -60px -120px;
+	}
+	
+	.icon.i-visa {
+		background-position: -120px -120px;
+	    height: 38px;
+	    width: 58px;
+	}
+	
+	.icon.i-mastercard {
+		background-position: -181px -120px;
+	    height: 38px;
+	    width: 60px;
+	}
+	
+	.icon.i-discover {
+		background-position: -240px -120px;
+	    height: 38px;
+	    width: 60px;
+	}
+	
+	.icon.i-ae {
+		background-position: -299px -120px;
+	    height: 38px;
+	    width: 41px;
+	}
+	
+	.icon.i-close {
+		background-position: -60px -284px;
+		width: 25px;
+		height: 25px;
+	}
+	
+	.icon.i-check{
+		background-position: -241px -251px;
+		width: 18px;
+		height: 15px;
+	}
+	
+	.icon.i-lead {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_NLLC.png);
+	}
+	
+	.icon.i-nolead {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_LLCNC.png);
+	}
+	
+	.icon.i-pb-free {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_LLC.png);
+	}
+	
+	.icon.i-watertap {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_NAFPW.png);
+	}
+	
+	.icon.i-ada {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_ADA.png);
+	}
+	
+	.icon.i-green {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_Green.png);
+	}
+	
+	.icon.i-hazardous {
+		width: 20px;
+		height: 20px;
+		background-size: 20px 20px;
+		background-position: 0 0;
+		background-image: url(common/badge_Hazardous.png);
+	}
+	
+	.icon.i-pbf {
+		background-position: -120px -310px;
+		width: 18px;
+		height: 24px;
+	}
+	
+	.icon.i-bell-small {
+		background-position: -23px -60px;
+		width: 12px;
+		height: 15px;
+	}
+	
+	.icon.i-note {
+		background-position: -301px -300px;
+		height: 17px;
+		width: 14px;
+		margin-top: 1px;
+	}
+	
+	.icon.i-note.mute {
+		background-position: -317px -300px;	
+	}
+	
+	.icon.i-chat {
+		background-position: -241px -360px;
+		height: 30px;
+		width: 30px;
+	}
+	
+	.icon.i-email {
+		background-position: -241px -400px;
+		width: 32px;
+		height: 20px;
+	}
+	
+	.icon.i-up-blue {
+		background-position: -193px -266px;
+		width: 12px;
+		height: 12px;
+	}
+	
+	.icon.i-down-blue {
+		background-position: -180px -266px;
+		width: 12px;
+		height: 12px;
+	}
+
+
+	/** vector 2x icon **/
+	@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+	screen and (min--moz-device-pixel-ratio: 1.5), 
+	screen and (min-device-pixel-ratio: 1.5) {
+		.icon.i-facebook,
+		.icon.i-pinterest,
+		.icon.i-twitter,
+		.icon.i-youtube,
+		.icon.i-houzz {
+			background-size: 52px 52px;
+			background-position: 0 0;
+		}
+
+		.icon.i-facebook {
+			background-image: url(common/fb@2x.png);
+		}
+
+		.icon.i-pinterest {
+			background-image: url(common/pinterest@2x.png);
+		}
+
+		.icon.i-twitter {
+			background-image: url(common/tw@2x.png);
+		}
+
+		.icon.i-youtube {
+			background-image: url(common/ytb@2x.png);
+		}
+
+		.icon.i-houzz {
+			background-image: url(common/houzz@2x.png);
+		}
+
+		.icon.i-ada,
+		.icon.i-green,
+		.icon.i-pb-free,
+		.icon.i-nolead,
+		.icon.i-watertap,
+		.icon.i-hazardous,
+		.icon.i-lead {
+			background-size: 20px 20px;
+			background-position: 0 0;
+		}
+
+		.icon.i-ada {
+			background-image: url(common/badge_ADA@2x.png);
+		}
+
+		.icon.i-green {
+			background-image: url(common/badge_Green@2x.png);
+		}
+
+		.icon.i-pb-free {
+			background-image: url(common/badge_LLC@2x.png);
+		}
+
+		.icon.i-nolead {
+			background-image: url(common/badge_LLCNC@2x.png);
+		}
+
+		.icon.i-watertap {
+			background-image: url(common/badge_NAFPW@2x.png);
+		}
+
+		.icon.i-hazardous {
+			background-image: url(common/badge_Hazardous@2x.png);
+		}
+
+		.icon.i-lead {
+			background-image: url(common/badge_NLLC@2x.png);
+		}
+
+		.icon.i-pdfdown {
+			background-size: 19px 26px;
+			background-position: 0 0;
+			background-image: url(common/pdfdown@2x.png);
+		}
+	}
+
+/*
+ Text Styling
+	1 Font Define
+	2 Links 
+	3 Arrows
+		3.1 Yellow Arrow
+		3.2 Gray Arrow
+		3.3 Large Gray Arrow
+		3.4 Gray Light Arrow
+		3.5 Blue Arrow
+			3.5.1 Primary
+			3.5.2 Small
+		3.6 Small arrow
+			3.6.1 Primary
+			3.6.2 grey
+			3.6.3 Warn
+			3.6.4 Black
+	4 Headline
+	5 Font Weight
+	6 Font Family
+	7 Font Size
+	8 Font Color
+	9 Text Transform
+ */
+ 
+ 
+/** 1 Font Define **/
+	@font-face {font-family: 'TisaOT';src: url('common/font/Tisa/TisaOT.otf');}
+	@font-face {font-family: 'TisaOT-Bold';src: url('common/font/Tisa/TisaOT-Bold.otf');}
+	@font-face {font-family: 'TisaOT-BoldIta';src: url('common/font/Tisa/TisaOT-BoldIta.otf');}
+	@font-face {font-family: 'TisaOT-Ita';src: url('common/font/Tisa/TisaOT-Ita.otf');}
+	@font-face {font-family: 'TisaOT-Medi';src: url('common/font/Tisa/TisaOT-Medi.otf');}
+	@font-face {font-family: 'TisaOT-MediIta';src: url('common/font/Tisa/TisaOT-MediIta.otf');}
+	
+
+/** 2 Links **/
+	a{
+		cursor: pointer;
+		color: #00446a;
+		text-decoration: none;
+		font-size: 16px;
+		font-family: ProximaNova-SemiBold, "Arial Bold";
+	}
+	a:active, a:focus{
+		outline: none;
+	}
+	a:focus{
+		text-decoration: none;
+		outline: none;
+		color:#36bae2;
+	}
+	a.hover{
+		text-decoration: none;
+		outline: none;
+		color:#36bae2;
+	}
+	
+	a.blue{
+		color: #36bae2;
+	}
+	a.blue:focus{
+		color: #595454;
+	}
+	a.blue.hover{
+		color: #595454;
+	}
+	
+	a.white{
+		color: #fff;
+	}
+	a.white:focus{
+		color: #015581;
+	}
+	a.white.hover{
+		color: #015581;
+	}
+
+	a.small{
+		font-size: 13px !important;
+	}
+	a.bold{
+		text-transform: uppercase !important;
+	}
+	.pointer {
+		cursor: pointer;
+	}
+
+	a.show-ul {
+		text-decoration: underline;
+	}
+
+/** 3 Arrows **/
+	a.arrow{
+		padding-right: 25px;
+		position: relative;
+	}
+	a.arrow:after{
+		position: absolute;
+		background: url(common/icon.png) no-repeat -85px -188px;
+		width: 16px;
+		height: 16px;
+		top: 0;
+		right: 0;
+		content: "";
+	}
+
+/* 3.1 Yellow Arrow */
+	a.yellow-arrow{
+		position: relative;
+		padding-right: 40px;
+	}
+	a.yellow-arrow:after{
+		background: url(common/icon.png) no-repeat -60px -208px;
+		position: absolute;
+		width: 23px;
+		height: 18px;
+		top: 8px;
+		right: 0;
+		content: "";
+	}
+
+/* 3.2 Gray Arrow */
+	a.gray-arrow{
+		position: relative;
+		padding-right: 25px;
+	}
+	a.gray-arrow:after{
+		background: url(common/icon.png) no-repeat -103px -188px;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		top: 0;
+		right: 0;
+		content: "";
+	}
+	
+/* 3.3 Large Gray Arrow */
+	a.graylarge-arrow{
+		position: relative;
+		padding-right: 40px;
+	}
+	a.graylarge-arrow:after{
+		background: url(common/icon.png) no-repeat -60px -190px;
+		position: absolute;
+		width: 23px;
+		height: 18px;
+		top: 8px;
+		right: 0;
+		content: "";
+	}
+
+/* 3.4 Gray Light Arrow */
+	a.graylight-arrow{
+		position: relative;
+		padding-right: 25px;
+	}
+	a.graylight-arrow:after{
+		background: url(common/icon.png) no-repeat -137px -203px;
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		top: 0;
+		right: 0;
+		content: "";
+	}
+	
+/* 3.5 Blue Arrow */
+	/* 3.5.1 Primary */
+	a.blue-arrow{
+		position: relative;
+		padding-right: 25px;
+	}
+	
+	a.blue-arrow:after{
+		background: url(common/icon.png) no-repeat -120px -188px;
+		position: absolute;
+		width: 16px;
+		height: 18px;
+		top: 0;
+		right: 0;
+		content: " ";
+	}
+	/* 3.5.2 Small */
+	a.blue-arrow.small{
+		padding-right: 20px;
+		display: inline-block;
+	}
+	a.blue-arrow.small:after{
+		position: absolute;
+		background: url(common/icon.png) no-repeat -99px -209px;
+		width: 12px;
+		height: 9px;
+		top: 4px;
+	}
+	
+/* 3.6 Small Arrow */
+	/* 3.6.1 Primary */
+	a.small.arrow{
+		position: relative;
+		padding-right: 20px;
+	}
+	a.small.arrow:after{
+		position: absolute;
+		background: url(common/icon.png) no-repeat -85px -205px;
+		width: 12px;
+		height: 16px;
+		top: 0;
+		right: 0;
+		content: "";
+	}
+	
+	/* 3.6.2 grey */
+	a.small.arrow.grey:after {
+		background-position: -99px -205px;
+	}
+	/* 3.6.3 Warn */
+	a.arrow.small.warn:after {
+		background-position: -113px -204px;
+		width: 14px;
+		right: -7px;
+	}
+	/* 3.6.4 Black */
+	a.arrow.small.black:after {
+		width: 14px;
+		background-position:  -98px -206px;
+	}
+
+
+/** 4 Headline **/
+	h1, h1 > a, h1 > a:hover{
+		color: #857F7F;
+		font-family: ProximaNovaCond-Regular, Arial;
+		font-size: 48px;
+		text-transform: uppercase;
+	}
+	
+	h2, h2 > a, h2 > a:hover{
+		color: #595454;
+		font-family: ProximaNovaCond-Bold, "Arial Bold";
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	
+	h3, h3 > a, h3 > a:hover{
+		color: #595454;
+		font-family: ProximaNova-Bold, "Arial Bold";
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	
+	h4, h4 > a, h4 > a:hover, .label{
+		color: #03324c;
+		font-family: ProximaNova-Bold, "Arial Bold";
+		font-size: 18px;
+	}
+	
+	h5{
+		margin-top: 10px;
+		font-size: 40px;
+		font-family: ProximaNovaT-Thin, Arial;
+		padding: 10px 0;
+		line-height: 49px;
+	}
+	
+	h6{
+		font-family: ProximaNova-SemiBold, "Arial Bold";
+		color: #36BAE2;
+		font-size: 18px;
+		line-height: 36px; 
+	}
+
+/** 5 Font Weight **/
+	.fw-stront{ font-weight: bold; }
+	.fw-normal{ font-weight: normal; }
+
+/** 6 Font Family **/
+	.f-regu-it    { font-family: ProximaNova-RegularIt; }
+	.f-regu       { font-family: ProximaNova-Regular, Arial; }
+	.f-excn-semib { font-family: ProximaNovaExCn-Semibold, "Arial Bold"; }
+	.f-semib      { font-family: ProximaNova-Semibold, "Arial Bold"; }
+	.f-excn-thin  { font-family: ProximaNovaExCn-Thin, Arial; }
+	.f-excn-bold  { font-family: ProximaNovaExCn-Bold, "Arial Bold"; }
+	.f-excn-Light { font-family: ProximaNovaExCn-Light, Arial; }
+	.f-cond-Light { font-family: ProximaNovaCond-Light, Arial; }
+	.f-cond-bold  { font-family: ProximaNovaCond-Bold, "Arial Bold"; }
+	.f-excn-regu  { font-family: ProximaNovaAExCn-Regular, Arial; }
+	.f-a-regu     { font-family: ProximaNovaA-Regular, Arial; }
+	.f-a-Light    { font-family: ProximaNovaA-Light, Arial; }
+	.f-t-thin     { font-family: ProximaNovaT-Thin, Arial; }
+	.f-light      { font-family: ProximaNova-Light, Arial; }
+	.f-bold       { font-family: ProximaNova-Bold, "Arial Bold"; }
+	.f-t          { font-family: TisaOT, Georgia; }
+	.f-t-Medi     { font-family: TisaOT, Georgia; }
+	.f-t-Bold     { font-family: TisaOT-Bold, Georgia; font-weight: bold\0; font-size: 14px\0; }
+	.f-t-BoldIta  { font-family: TisaOT-BoldIta, Georgia; font-weight: bold\0; font-style: italic\0; font-size: 14px\0; }
+	.f-t-Ita      { font-family: TisaOT-Ita, Georgia; font-style: italic\0; font-size: 14px\0; }
+	.f-t-MediIta  { font-family: TisaOT-Ita, Georgia; font-style: italic\0; font-size: 14px\0; }
+	.f-t-Medi     { font-family: TisaOT-Ita, Georgia; font-style: italic\0 ; font-size: 14px\0;}
+	
+/** 7 Font Size **/
+	.fs-16{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	.fs-12{
+		line-height: 1.1;
+	}
+	
+	.fs-13, .fs-14, .fs-18, .fs-19,
+	.fs-20, .fs-24, .fs-25, .fs-26, .fs-28,
+	.fs-30, .fs-32, .fs-38, .fs-39,
+	.fs-41, .fs-48, .fs-56, .fs-62, .fs-80{
+		line-height: 1;
+	}
+	
+	.fs-12{ font-size: 12px; }
+	.fs-13{ font-size: 13px; }
+	.fs-14{ font-size: 14px; }
+	.fs-18{ font-size: 18px; }
+	.fs-19{ font-size: 19px; }
+	.fs-20{ font-size: 20px; }
+	.fs-24{ font-size: 24px; }
+	.fs-25{ font-size: 25px; }
+	.fs-26{ font-size: 26px; }
+	.fs-28{ font-size: 28px; }
+	.fs-30{ font-size: 30px; }
+	.fs-32{ font-size: 32px; }
+	.fs-38{ font-size: 38px; }
+	.fs-39{ font-size: 39px; }
+	.fs-41{ font-size: 41px; }
+	.fs-48{ font-size: 48px; }
+	.fs-56{ font-size: 56px; }
+	.fs-62{ font-size: 62px; }
+	.fs-80{ font-size: 80px; }
+
+/** 8 Font Color **/
+	.fc-red      { color: #FF0000; }
+	.fc-blue     { color: #36bbe4; }
+	.fc-darkblue { color: #00446a; }
+	.fc-green    { color: #92bc02; }
+	.fc-yellow   { color: #FBA419; }
+	.fc-darkgray { color: #3C3C3C; }
+	.fc-white    { color: #FFFFFF; }
+	.fc-grey     { color: #b2b2b2; }
+	.fc-dark     { color: #000000; }
+	.fc-normal   { color: #595454; }
+	.fc-orange   { color: #faa519; }
+
+
+/** 9 Text Transform **/
+	.text-normal { text-transform: none; }
+	.text-upper  { text-transform: uppercase; }
+	.text-low    { text-transform: lowercase; }
+	.text-case   { text-transform: capitalize; }
+	
+
+/*
+ Utils
+	1 Float
+	2 Vertical Align
+	3 Text Align
+	4 Display
+	5 Margin & Padding
+		5.1 Margin
+		5.2 Padding
+	6 Background
+	7 Others
+	8 device (1023 > width > 768)
+ */
+
+
+/** 1 Float **/
+	.clearfix:before,
+	.clearfix:after {
+		content: " ";
+		display: table;
+	}
+	
+	q:before, q:after{
+		content: '';
+		content: none;
+	}
+	
+	.clearfix:after {
+		clear: both;
+	}
+	.pull-left  { float: left !important; }
+	.pull-right { float: right !important; }
+	.pull-none  { float: none !important; }
+
+/** 2 Vertical Align **/
+	.vl-middle { vertical-align: middle; }
+	.vl-top    { vertical-align: top; }
+	.vl-bottom { vertical-align: bottom !important; }
+
+/** 3 Text Align **/
+	.text-left   { text-align: left; }
+	.text-right  { text-align: right; }
+	.text-center { text-align: center; }
+
+/** 4 Display **/
+	.hide         { display: none !important; }
+	.show         { display: block !important; }
+	.inline-block { display: inline-block; }
+	
+	.table{
+		display: table;
+		width: 100%;
+	}
+	
+	.table-row{
+		display: table-row;
+	}
+	
+	.table-cell,
+	ul.table-row > li{
+		display: table-cell;
+		float: none;
+	}
+	.visi-hidden{
+		visibility: hidden;
+	}
+/** 5 Margin & Padding **/
+	/* 5.1 Margin */
+	/* margin top */
+	.mt-5 { margin-top: 5px; }
+	.mt-8 { margin-top: 8px; }
+	.mt-10 { margin-top: 10px; }
+	.mt-15 { margin-top: 15px; }
+	.mt-20 { margin-top: 20px; }
+	.mt-25 { margin-top: 25px; }
+	.mt-30 { margin-top: 30px; }
+	.mt-35 { margin-top: 35px; }
+	.mt-40 { margin-top: 40px; }
+	.mt-50 { margin-top: 50px; }
+	.mt-55 { margin-top: 55px; }
+	.mt-60 { margin-top: 60px; }
+	.mt-75 { margin-top: 75px; }
+	.mt-80 { margin-top: 80px; }
+	
+	/* margin bottom */
+	.mb-5 { margin-bottom: 5px; }
+	.mb-10 { margin-bottom: 10px; }
+	.mb-15 { margin-bottom: 15px; }
+	.mb-20 { margin-bottom: 20px; }
+	.mb-25 { margin-bottom: 25px; }
+	.mb-30 { margin-bottom: 30px; }
+	.mb-35 { margin-bottom: 35px; }
+	.mb-40 { margin-bottom: 40px; }
+	.mb-50 { margin-bottom: 50px; }
+	.mb-60 { margin-bottom: 60px; }
+	
+	/* margin left */
+	.ml-5 { margin-left: 5px; }
+	.ml-10 { margin-left: 10px; }
+	.ml-20 { margin-left: 20px; }
+	.ml-30 { margin-left: 30px; }
+	
+	/* margin right */
+	.mr-5 { margin-right: 5px; }
+	.mr-10 { margin-right: 10px; }
+	.mr-20 { margin-right: 20px; }
+	.mr-30 { margin-right: 30px; }
+	
+	/* 5.2 Padding */
+	/* Padding top */
+	.pt-5{ padding-top: 5px; }
+	.pt-10{ padding-top: 10px; }
+	.pt-15{ padding-top: 15px; }
+	.pt-20{ padding-top: 20px; }
+	.pt-25{ padding-top: 25px; }
+	
+	/* Padding bottom */
+	.pb-5{ padding-bottom: 5px; }
+	.pb-10{ padding-bottom: 10px; }
+	.pb-15{ padding-bottom: 15px; }
+	.pb-20{ padding-bottom: 20px; }
+	.pb-25{ padding-bottom: 25px; }
+	
+	/* Padding left */
+	.pl-5{ padding-left: 5px; }
+	.pl-10{ padding-left: 10px; }
+	.pl-20{ padding-left: 20px; }
+	
+	/* Padding right */
+	.pr-10{ padding-right: 10px; }
+	.pr-20{ padding-right: 20px; }
+
+
+/** 6 Background **/
+	.bc-orange  { background: #faa519; }
+	.bc-yellow  { background: #efc92d; }
+	.bc-blue    { background: #36bae2; }
+	.bc-updated { background: yellow !important; }
+	.bc-none    { background: none !important; }
+
+/** 7 Others **/
+	.none-border{
+		border: none !important;
+	}
+	
+	.min-width-60{
+		min-width: 60px;
+	}
+	
+	hr{
+		width: 100%;
+		height: 1px;
+		border: 0;
+		background: #E4E3E3;
+	}
+	.line-alone{
+		line-height: 1;
+	}
+	
+	.text-overflow {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.email-item {
+		display: inline-block;
+		word-wrap: break-word;
+		max-width: 100%;
+	}
+
+	.p-relative {
+		position: relative;
+	}
+
+	.p-absolute {
+		position: absolute;
+	}
+
+/** 8 Customized **/
+	.visible-xs,
+	.visible-sm,
+	.visible-md {
+		display: none!important;
+	}
+	@media (max-width: 479px) {
+		.visible-xs {
+			display: block!important;
+		}
+		
+		.fill-row{
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+	}
+
+	@media (min-width: 480px) and (max-width: 767px) {
+		.visible-sm {
+			display: block!important;
+		}
+		
+		.fill-row{
+			margin-left: -12px;
+			margin-right: -12px;
+		}
+	}
+
+	@media (max-width: 1023px) and (min-width: 0px) {
+		.visible-md {
+			display: block!important;
+		}
+
+		.hidden-md {
+			display: none!important;
+		}
+	}
+	
+/** 9 device (1023 > width > 768) **/
+	@media (min-width: 0px) and (max-width: 1023px) {
+		.md-mt10{
+			margin-top:10px!important;
+		}
+		.md-mt15{
+			margin-top:15px!important; 
+		}
+		.md-mt25{
+			margin-top:25px!important; 
+		}
+		.md-mt45{
+			margin-top:45px!important; 
+		}		
+	}
+.hero-img ul{
+	background: #00446b;
+}
+
+.hero-img ul li{
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.hero-img a{
+	display: block;
+	height: 100%;
+}
+
+.green-line{
+	background: #92bc02;
+	height: 15px;
+}
+
+.banner-wishlist{
+	border-top: 2px #CCC solid;
+	border-bottom: 2px #CCC solid;
+	margin: 0 -10px;
+	margin-top: 60px;
+	padding: 25px 85px 25px 27px;
+	line-height: 35px;
+	position: relative;
+}
+.banner-wishlist .arrow-icon{
+	background: url(common/icon.png) no-repeat -60px -208px;
+	position: absolute;
+	width: 23px;
+	display: block;
+	height: 18px;
+	top: 50%;
+	margin-top: -9px;
+	right: 58px;
+	content: "";
+}
+.banner-wishlist > img{
+	position: absolute;
+	top: -50px;
+	left: 10px;
+}
+
+.banner-wishlist > p{
+	padding-left: 150px;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	.hero-img ul li img {
+		min-height: inherit;
+		max-width: none;
+		width: 100%;
+	}
+	.hero-img ul li {
+		height: auto;
+	}
+	.banner-wishlist{
+		padding: 9px 75px 9px 50px;
+	}
+	.banner-wishlist .arrow-icon{
+		right: 47px;
+	}
+}
+/* 
+1.Breadcrumb
+    
+/* 1. Breadcrumb
+============================================================================================*/
+.breadcrumb {
+	width: 100%;
+	margin: 15px 10px 0;
+	line-height: 1.2;
+}
+
+.breadcrumb:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.breadcrumb li{
+	list-style-type: none;
+	display: inline;
+	font-size: 13px;
+	color: #535252;
+	font-family: ProximaNova-Regular;
+	margin-right: 5px;
+}
+
+.breadcrumb li span,
+.breadcrumb li a{
+	font-size: 13px;
+	color: #36bae2;
+	font-family: ProximaNova-Regular;
+	text-decoration: none;
+}
+
+.breadcrumb li.disabled span, 
+.breadcrumb li.disabled a {
+	cursor: default;
+	color: #535252;
+}
+
+.breadcrumb li .prop-title:after,
+.breadcrumb li a:after{
+	content: ">";
+	padding-left: 8px;
+	color: #535252;
+}
+
+.breadcrumb li span.prev:after,
+.breadcrumb li a.prev:after{
+	content: "";
+	padding-left: 0;
+}
+
+.breadcrumb li span.prev:before,
+.breadcrumb li a.prev:before{
+	content: "<";
+	padding-right: 10px;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	.breadcrumb {
+		margin-left: 0;
+	}
+}
+.dist-description{
+	margin-top: -10px;
+}
+
+.dist-description p{
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+}
+
+.dist-description p span{
+	font-family: ProximaNova-Regular;
+	font-size: 13px;
+}
+
+.dist-description p span.price{
+	font-size: 18px;
+	font-family: ProximaNova-Bold;
+}
+
+.dist-list{
+	display: table;
+	width: 100%;
+	border: 1px #CCC solid;
+	background: #F7F7F7;
+}
+
+.dist-list ul {
+	display: table-row;
+	width: 100%;
+	
+}
+
+.dist-list ul li{
+	display: table-cell;
+	padding: 8px 10px;
+	font-size: 13px;
+}
+
+.dist-list ul.list-header li{
+	background: #00446B;
+	color: #FFF;
+	font-family: ProximaNova-Bold;
+	cursor: pointer;
+}
+
+.dist-list ul.list-header li span.asc:after{
+	background: url(common/icon-arrow.png) no-repeat;
+	content: " ";
+	width: 7px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.dist-list ul.list-header li span.des:after{
+	background: url(common/icon-arrow.png) no-repeat;
+	background-position: -10px -2px;
+	content: " ";
+	width: 7px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 5px;
+}
+/*
+1. Footer 
+	1.1 Connect Us
+		1.1.1 Share
+		1.1.2 Email Sign Up
+	1.2 Site Links
+		
+/* 1. Footer
+============================================================================================*/
+
+.footer{
+	background: #FFF;
+}
+
+/* 1.1 Connect Us 
+----------------------------------------------------------*/
+.footer-connect{
+	padding: 10px 0;
+	background: #EEE;
+	border-left: 0;
+	border-right: 0;
+	margin: 0 10px 60px !important;
+}
+
+.footer-connect .connect-us{
+	background: white;
+	overflow: hidden;
+	padding: 35px 10px 30px;
+	border: 2px #CCC solid;
+	border-left: 0;
+	border-right: 0;
+	margin: 0 -20px;
+}
+
+/* 1.1.1 Share 
+----------------------------------------------------------*/
+.connect-us ul.share{
+	padding: 0 10px;
+}
+
+.connect-us ul.share > li{
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}
+
+.connect-us ul.share > li > a{
+	float: left;
+}
+
+/* 1.1.2 Share 
+----------------------------------------------------------*/
+.connect-us .sign-up{
+	float: right;
+	padding: 0 10px;
+	position: relative;
+}
+
+.connect-us .sign-up dl{
+	margin-top: 10px;
+}
+
+.connect-us .sign-up dl dt{
+	font-family: ProximaNova-Semibold;
+	color: #B3B3B3;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+	float: left;
+	margin-right: 15px;
+}
+
+.connect-us .sign-up dl dd{
+	float: left;
+	position: relative;
+}
+
+.connect-us .sign-up .text-input::-webkit-input-placeholder{
+	font-family: TisaOT, Georgia;
+	font-size: 16px;
+	line-height: 18px;
+	color: #b3b3b3;
+}
+.connect-us .sign-up .text-input::-moz-placeholder{
+	font-family: TisaOT, Georgia;
+	font-size: 16px;
+	line-height: 18px;
+	color: #b3b3b3;
+}
+.connect-us .sign-up .text-input:-moz-placeholder{
+	font-family: TisaOT, Georgia;
+	font-size: 16px;
+	line-height: 18px;
+	color: #b3b3b3;
+}
+.connect-us .sign-up .text-input:-ms-input-placeholder{
+	font-family: TisaOT, Georgia;
+	font-size: 16px;
+	line-height: 18px;
+	color: #b3b3b3;
+}
+.connect-us .sign-up .text-input.placeholder {
+	font-family: TisaOT, Georgia;
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.connect-us .sign-up .text-input{
+	width: 300px;
+	border-color: #3C3C3C;
+	padding-right:60px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.connect-us .sign-up .go-btn{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 13px;
+	font-size: 18px;
+	color: #FFF;
+	font-family: ProximaNova-Semibold;
+}
+
+.connect-us .identity-choose {
+	position: absolute;
+	right: 50px;
+    top: -33px;
+}
+
+.connect-us .identity-choose label {
+	font-size: 14px;
+	margin-left: 5px;	
+	color: #595454;
+	font-family: ProximaNova-Regular;
+}
+
+.connect-us .fradio {
+	margin-right: 4px;
+	margin-top: 2px;
+}
+/* 1.2 Site Links 
+----------------------------------------------------------*/
+.footer-site-links > ul > li{
+	list-style-type: none;
+}
+
+.footer-site-links{
+	margin-bottom: 120px;
+}
+
+.footer-site-links h6{
+	color: #b3b3b3;
+	line-height: 1.2;
+	margin-bottom: 7px;
+}
+
+.footer-site-links p{
+	padding: 6px 10px 6px 0;
+	line-height: 18px;
+	
+}
+
+.footer-site-links p a{
+	color: #666666;
+	font-family: ProximaNova-Regular;
+}
+.footer-site-links p a:focus{
+	color: #36BAE2;
+}
+.footer-site-links p a:hover{
+	color: #36BAE2;
+}
+
+.footer-site-links p.bold{
+	font-family: ProximaNova-Semibold;
+}
+
+.copyright{
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.copyright a{
+	font-size: 14px;
+	font-family: ProximaNova-Regular;
+	color: #36bae2;
+}
+.copyright a:focus,
+.copyright a:hover{
+	color: #595454;
+}
+
+/* pop-footer-tip
+------------------------------------------*/
+.pop-footer-tip:after{
+	margin-right: -85px;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	.footer-connect {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		margin-bottom: 30px !important;
+	}
+
+	.connect-us .sign-up {
+		width: 50%;
+	}
+
+	.footer-connect .connect-us {
+		padding: 15px 10px 15px;
+		box-shadow: 0px 0px 0px 10px #f5f5f5;
+	}
+
+	.connect-us .sign-up dl {
+		margin-top: 0;
+	}
+
+	.connect-us .sign-up dl dt {
+		line-height: 1;
+		margin-bottom: 10px;
+		font-size: 18px;
+		margin-right: 0;
+	}
+
+	.connect-us .sign-up dl dd {
+		width: 100%;
+	}
+
+	.connect-us .sign-up .text-input {
+		width: 100%;
+	}
+
+	.connect-us .identity-choose {
+		position: static;
+	}
+
+	.connect-us ul.share {
+		padding-top: 15px;
+	}
+
+	.footer-site-links {
+		margin-bottom: 80px;
+	}
+}
+#galleryModal .modal-dialog {
+	width: 660px;
+}
+
+.gallery-nav {
+	position: absolute;
+	top: 30%;
+	height: 80px;
+	width: 60px;
+}
+
+.gallery-nav > i {
+	width: 22px;
+	height: 40px;
+	display: block;
+	background-image: url(common/icon.png);
+	background-repeat: no-repeat;
+	text-indent: -10000px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.gallery-nav-prev {
+	left: -65px;
+}
+
+.gallery-nav-prev > i {
+	background-position: -165px -190px;
+}
+
+.gallery-nav-prev.disabled > i {
+	background-position: -257px -190px;
+	cursor: default;
+}
+
+.gallery-nav-next {
+	right: -65px;
+}
+
+.gallery-nav-next > i {
+	background-position: -188px -190px;
+}
+
+.gallery-nav-next.disabled > i {
+	background-position: -280px -190px;
+}
+.gallery-nav-prev.disabled:focus,
+.gallery-nav-next.disabled:focus {
+	background-color: transparent;
+	cursor: default;
+}
+.gallery-nav-prev.disabled:hover,
+.gallery-nav-next.disabled:hover {
+	background-color: transparent;
+	cursor: default;
+}
+
+#galleryModal .gallery-container {
+	position: relative;
+	padding-top: 14px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 516px;
+    margin-bottom: -30px;
+}
+
+#galleryModal .hero-img img {
+	display: block;
+}
+
+#galleryModal .thumbnails {
+	margin-left: -16px;
+	margin-top: 20px;
+}
+
+#galleryModal .thumbnails:before,
+#galleryModal .thumbnails:after {
+	content: " ";
+	display: table;
+}
+
+#galleryModal .thumbnails:after {
+	clear: both;
+}
+
+#galleryModal .thumbnails li {
+	width: 60px;
+	height: 50px;
+	float: left;
+	list-style: none;
+	margin-left: 16px;
+	margin-bottom: 20px;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	border-bottom: 5px solid transparent;
+}
+
+#galleryModal .thumbnails li img {
+	height: 45px;
+	width: 60px;
+}
+#galleryModal .thumbnails li:focus {
+	border-bottom-color: #36bae2;
+}
+#galleryModal .thumbnails li:hover {
+	border-bottom-color: #36bae2;
+}
+
+#galleryModal .thumbnails li.active {
+	border-bottom-color: #92BC02;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	#galleryModal .gallery-container {
+		margin-bottom: -20px;
+	}
+	
+	.gallery-nav-prev {
+		left: -70px;
+	}
+
+	.gallery-nav-next {
+		right: -70px;
+	}
+
+}
+/*
+1. Header 
+	1.1 LOGO
+	1.2 User Details
+		1.2.1 My Account
+		1.2.2 Cart
+	1.3 Main Navigation
+	1.4 Sub Navigation
+	1.5 Search Box
+	1.6 Fixed Menu Bar
+		
+/* 1. Header
+============================================================================================*/
+
+/* 1.1 LOGO 
+----------------------------------------------------------*/
+.header-logo{
+	height: 90px;
+	padding-top: 30px;
+	float: left;
+}
+
+/* 1.2 User Details
+----------------------------------------------------------*/
+/* public styling  */
+.header-details-user{
+	float: right;
+	margin-top: 27px;
+	margin-right: 10px;
+}
+
+.header-details-user > ul > li{
+	float: left;
+	margin-left: 10px;
+	list-style-type: none;
+}
+
+.header-details-user > ul > li > a{
+	color: #FFF;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+.header-details-user .pline:after{
+	content: "|";
+	color: #36BAE1;
+	margin-right: 10px;
+}
+
+.header-details-user span.pline:after{
+	margin-left: 10px;
+}
+
+.header-details-user .pline > span,
+.header-details-user .pline > a{
+	margin-right: 20px;
+	line-height: 40px;
+}
+
+/* 1.2.1 My Account
+----------------------------------------------------------*/
+.header-details-user .header-login{
+	margin: -15px -5px -15px -13px;
+	background: none;
+	position: relative;
+}
+
+.header-details-user .header-login.hover{
+	background: #FFF;
+}
+
+.header-details-user .header-login > a {
+	padding: 15px 30px 15px 35px;
+	display: block;
+}
+
+.header-details-user .header-login.hover > a{
+	color: #00446b;
+}
+
+.header-login .nav-login{
+	display: none;
+	position: absolute;
+	right: -50px;
+	top: 70px;
+	background: #f9f8f6;
+	z-index: 502;
+}
+
+.header-login .nav-login:after{
+	content: " ";
+	pointer-events: none;
+	border-width: 20px;
+	border-style: solid;
+	border-color: white transparent transparent transparent;
+	height: 0;
+	background: #F9F8F6;
+	position: absolute;
+	top: 0;
+	right: 125px;
+	width: 0;
+}
+
+.nav-login .header-login-form{
+	width: 290px;
+	padding: 30px 30px 20px;
+}
+
+.nav-login .header-login-form .title{
+	font-family: ProximaNova-Light, Arial;
+	font-size: 26px;
+	display: block;
+	line-height: 35px;
+	color: #00446b;
+}
+
+.nav-login .header-login-form .input{
+	margin-top: 5px;
+}
+
+.header-login-form .note label{
+	line-height: 40px;
+	color: #595454;
+}
+
+.header-login-form .note .fcheckbox {
+	margin-right: 5px;
+}
+
+.header-login-form .note a{
+	line-height: 23px;
+	margin-top: 9px;
+	font-family: ProximaNova-Bold, "Arial Bold";
+}
+
+.header-login-form .btn .button.primary.middle{
+	width: 100%;
+}
+
+.header-login-form .input input{
+	width: 100%;
+	border: 1px solid #857f7f;
+}
+
+.header-login-form .input input::-webkit-input-placeholder{
+	color: #595454;
+	font-family: ProximaNova-Regular, Arial;
+	font-size: 14px;
+}
+.header-login-form .input input::-moz-placeholder{
+	color: #595454;
+	font-family: ProximaNova-Regular, Arial;
+	font-size: 14px;
+}
+.header-login-form .input input:-moz-placeholder{
+	color: #595454;
+	font-family: ProximaNova-Regular, Arial;
+	font-size: 14px;
+}
+.header-login-form .input input:-ms-input-placeholder{
+	color: #595454;
+	font-family: ProximaNova-Regular, Arial;
+	font-size: 14px;
+}
+.header-login-form .input input.placeholder {
+	color: #595454;
+	font-family: ProximaNova-Regular, Arial;
+	font-size: 14px;
+}
+
+.header-login-form .inline-error{
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.nav-login .header-register{
+	padding: 10px 30px 20px;
+	background: #36bae1;
+	text-align: center;
+}
+
+.header-register .btn{
+	padding-top: 10px;
+}
+
+.header-register .btn a{
+	width: 100%;
+	height: 45px;
+	text-transform: uppercase;
+	font-family: ProximaNova-Bold;
+	line-height: 35px;
+	font-size: 18px;
+}
+.header-register .btn a:focus{
+	background: #D8E8F5 !important;
+	color: #00415C !important;
+}
+.header-register .btn a:hover{
+	background: #D8E8F5 !important;
+	color: #00415C !important;
+}
+
+.header-details-user .myacct{
+	margin: -15px -5px -15px -13px;
+	background: none;
+	position: relative;
+}
+
+.header-details-user .myacct.active {
+	background: #FFF
+}
+
+.header-details-user .myacct.active > a{
+	color: #00446A;
+	text-decoration: none;
+}
+
+.header-details-user .myacct > a{
+	line-height: 40px;
+	display: inline-block;
+	padding: 15px 70px 15px 25px;
+}
+
+.header-details-user .myacct > a:after{
+	position: absolute;
+	width: 32px;
+	height: 35px;
+	right: 20px;
+	background: url(common/icon.png) no-repeat -60px -60px;
+	content: "";
+	display: block;
+	top: 16px;
+}
+
+.header-details-user .myacct i.note{
+	position: absolute;
+	font-size: 14px;
+	color: #36BAE1;
+	line-height: 15px;
+	top: 45px;
+	left: 25px;
+	font-style: normal;
+	text-transform: none;
+	font-family: TisaOT, Georgia;
+}
+
+.header-details-user .myacct.active > a:after {
+	background-position: -120px -60px;
+}
+.header-details-user .myacct:focus i.note,
+.header-details-user .myacct:hover i.note,
+.header-details-user .myacct.active i.note {
+	color: #3c3c3c;
+}
+
+.header-details-user .myacct i.icon.i-alert{
+	position: absolute;
+	right: 47px;
+	top: 10px;
+	width: 16px;
+	height: 19px;
+}
+
+.header-details-user .nav-myacct{
+	display: none;
+	position: absolute;
+	right: -37px;
+	top: 70px;
+	background: #f9f8f6;
+	z-index: 502;
+}
+
+.header-details-user .nav-myacct:after{
+	content: " ";
+	pointer-events: none;
+	border-width: 20px;
+	border-style: solid;
+	border-color: white transparent transparent transparent;
+	height: 0;
+	background: #F9F8F6;
+	position: absolute;
+	top: 0;
+	right: 54px;
+	width: 0;
+}
+
+.header-details-user .nav-myacct > nav{
+	width: 270px;
+	padding: 10px 20px 10px 35px;
+	line-height: normal;
+	margin: 20px auto;
+}
+
+/* settings */
+.header-details-user nav.settings{
+	float: right;
+	padding-bottom: 10px;
+}
+
+.header-details-user nav.settings ul li{
+	list-style-type: none;
+	padding-bottom: 12px;
+}
+
+.header-details-user nav.settings ul li a.thin{
+	font-family: ProximaNova-Light;
+	font-size: 26px;
+	display: block;
+	line-height: 35px;
+}
+
+.header-details-user nav.settings ul li span{
+	font-size: 14px;
+	line-height: 18px;
+	display: block;
+	padding-bottom: 5px;
+}
+
+/* notes */
+.header-details-user nav.notes{
+	margin-right: 265px;
+	border-right: 1px #e8e7e5 solid;
+	min-height: 335px;
+}
+
+.header-details-user nav.notes > h6{
+	font-size: 17px;
+}
+
+.header-details-user nav.notes ul li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.header-details-user nav.notes ul li span{
+	font-size: 14px;
+	line-height: 18px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.header-details-user nav.notes > p.viewall{
+	line-height: 26px;
+	margin-top: 30px;
+}
+
+/* 1.2.2 Cart
+----------------------------------------------------------*/
+.header-details-user > ul > li.cart{
+	text-align: center;
+	margin-left: 20px;
+	text-transform: none;
+}
+
+.header-details-user > ul > li.cart.i-cart{
+	position: relative;
+	padding-right: 40px;
+}
+
+.header-details-user > ul > li.cart > a:after {
+	background-image: url(common/cart@2x.png);
+	background-position: 0 0;
+	background-size: 40px 38px;
+	content: "";
+	width: 40px;
+	height: 38px;
+	position: absolute;
+	top: 2px;
+	right: 0;
+}
+
+.header-details-user > ul > li.cart.c-empty{
+	background-position: right top;
+	text-transform: uppercase;
+}
+
+.header-details-user > ul > li.cart > a{
+	text-decoration: none;
+	height: 40px;
+	background-color: #00446B;
+	display: inline-block;
+}
+
+.header-details-user .cart .count i{
+	display: block;
+	font-style: normal;
+	line-height: 10px;
+	text-transform: none;
+	font-family: ProximaNova-Regular;
+}
+
+.header-details-user .cart .count em{
+	display: block;
+	font-family: ProximaNova-Regular;
+	font-size: 24px;
+	color: #36BAE2;
+	font-style: normal;
+	line-height: 26px;
+	padding-top: 4px;
+}
+
+/* 1.3 Top Navigation
+----------------------------------------------------------*/
+.header-nav{
+	height: 50px;
+	position: relative;
+	z-index: 500;
+}
+
+.header-nav > .container{
+	background: #022C42;
+}
+
+.nav-container{
+	float: left;
+	margin-left: -10px;
+}
+
+.nav-container > ul > li{
+	list-style-type: none;
+	float: left;
+}
+
+.nav-container > ul > li > a{
+	line-height: 50px;
+	color: #FFF;
+	display: block;
+	padding: 0 30px;
+	text-transform: uppercase;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.nav-container > ul > li.active > a {
+	background: #F9F8F6;
+	color: #00446a;
+	
+}
+
+.nav-container > ul > li .sub-nav{
+	display: none;
+	position: absolute;
+	width: 100%;
+	background: #F9F8F6;
+	left: 0;
+	top: 50px;
+	z-index: 999;
+}
+
+/* 1.4 Sub Navigation
+----------------------------------------------------------*/
+.sub-nav nav > h6{
+	padding-top: 26px;
+}
+
+.sub-nav nav > ul{
+	margin-bottom: 24px;
+}
+
+.sub-nav nav > ul > li{
+	list-style-type: none;
+}
+
+.sub-nav nav > ul > li a{
+	line-height: 27px;
+	margin: 0 -20px;
+	padding: 0 20px;
+	color: #3d3c3a;
+	display: block;
+	font-family: ProximaNova-Light;
+}
+
+.sub-nav nav > ul.subNavList > li.hover a{
+	background: #36bae2;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sub-nav .viewall{
+	margin-bottom: 30px;
+	line-height: 20px;
+}
+
+.subNavContent > li{
+	list-style-type: none;
+	display: none;
+}
+
+.subNavContent > li.active{
+	display: block;
+}
+
+.ter-nav nav{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.ter-nav nav > h6{
+	padding: 5px 0 0 10px;
+}
+
+.ter-nav nav > ul{
+	margin-bottom: 0;
+}
+
+.ter-nav nav > ul > li{
+	margin-bottom: 10px;
+}
+
+.ter-nav nav > ul > li a{
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-family: ProximaNova-Light;
+	line-height: 1;
+}
+.ter-nav nav > ul > li a:focus{
+	background: none;
+	color: #36BAE2;
+}
+.ter-nav nav > ul > li a:hover{
+	background: none;
+	color: #36BAE2;
+}
+
+.nav-loops{
+	padding-bottom: 10px;
+}
+
+.nav-loops .viewall{
+	margin-bottom: 8px;
+	line-height: 20px;
+}
+
+.nav-loops > h6{
+	padding-top: 6px;
+	font-family: ProximaNova-Semibold;
+}
+
+.nav-loops > ul{
+	margin-bottom: 15px;
+}
+
+.nav-loops > ul > li{
+	line-height: 28px;
+	list-style-type: none;
+}
+
+.nav-loops > ul > li a{
+	font-family: ProximaNova-Regular;
+	color: #3D3C3A;
+}
+.nav-loops > ul > li a:focus{
+	color: #36BAE2;
+}
+.nav-loops > ul > li a:hover{
+	color: #36BAE2;
+}
+
+.nav-loops > p{
+	margin-bottom: 7px;
+}
+
+/* 1.5 Search Box
+----------------------------------------------------------*/
+.header-search-box{
+	float: right;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.header-search-box fieldset{
+	position: relative;
+	padding-right: 40px;
+	z-index: 11;
+}
+
+.header-search-box fieldset input{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+	color: #595454;
+	font-family: TisaOT, Georgia;
+	line-height: 22px\0;
+}
+
+.header-search-box fieldset input:focus{
+	font-family: TisaOT-Ita, Georgia; font-style: italic\0; font-size: 14px\0;
+}
+
+.header-search-box fieldset input.placeholder {
+	font-family: TisaOT, "Georgia Regular";
+	font-size: 16px;
+	line-height: 22px\0;
+}
+
+.header-search-box fieldset .icon.i-search{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 30px;
+	background: #92BC02 url(common/icon-searchbtn.png) no-repeat center center;
+	cursor: pointer;
+}
+
+/* 1.6 Fixed Menu Bar
+----------------------------------------------------------*/
+.header-nav-fixed{
+	height: 60px;
+	background: #00446B;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	display: none;
+}
+
+.header-nav-fixed.normal {
+	position: absolute;
+}
+
+.nav-container-fixed{
+	padding: 0 10px;
+	width: 80px;
+	float: left;
+}
+
+/* Fixed Navigation */
+.nav-container-fixed > nav{
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background: #f9f8f6;
+	width: 100%;
+	display: none;
+	padding: 40px 0 20px;
+}
+
+.nav-container-fixed > i{
+	height: 60px;
+	display: block;
+	cursor: pointer;
+	position: relative;
+}
+
+.nav-container-fixed > i:after{
+	background: url(common/icon.png) no-repeat 0px -248px;
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+}
+.nav-container-fixed:focus > i ,
+.nav-container-fixed:hover > i ,
+.nav-container-fixed.active > i {
+	background-color: #FFF;
+}
+
+.nav-container-fixed.non-hover:hover > i {
+	background-color: transparent;
+}
+
+.nav-container-fixed.non-hover.active:hover > i {
+	background-color: #fff;
+}
+
+.nav-container-fixed:focus > i:after,
+.nav-container-fixed:hover > i:after,
+.nav-container-fixed.active > i:after{
+	background-position: 0px -284px;
+}
+
+.nav-container-fixed.non-hover:hover > i:after {
+	background-position: 0px -248px;
+}
+
+.nav-container-fixed.non-hover.active:hover > i:after {
+	background-position: 0px -284px;
+}
+
+.nav-container-fixed .viewall{
+	margin-top: 20px;
+}
+
+.viewall a{
+	color: #3D3C3A;
+}
+.viewall a:focus{
+	color: #36BAE2;
+}
+.viewall a:hover{
+	color: #36BAE2;
+}
+
+/* Fixed LOGO */
+.header-nav-fixed .header-logo{
+	height: 60px;
+	padding-top: 15px;
+	float: left;
+}
+
+/* Fixed Cart */
+.header-nav-fixed .cart{
+	float: right;
+	background: #022c42;
+}
+
+.header-nav-fixed .cart a{
+	padding-right: 40px;
+	padding-left: 15px;
+	display: block;
+	line-height: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 15px;
+	color: #FFF;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+	z-index: 10;
+}
+
+.header-nav-fixed .cart a:after{
+	background: url(common/icon.png) no-repeat 1px -116px;
+	content: "";
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+
+.header-nav-fixed .cart .count i{
+	display: block;
+	font-style: normal;
+	line-height: 10px;
+	text-transform: none;
+	text-align: center;
+}
+
+.header-nav-fixed .cart .count em{
+	display: block;
+	font-family: ProximaNova-Regular;
+	font-size: 24px;
+	color: 
+	#36BAE2;
+	font-style: normal;
+	line-height: 26px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+/* Fixed Search Box */
+.header-nav-fixed .header-search-box{
+	padding: 0;
+}
+
+.header-nav-fixed .header-search-box fieldset .icon.i-search{
+	width: 60px;
+	height: 60px;
+	position: static;
+}
+
+.header-nav-fixed .header-search-box fieldset{
+	padding-right: 0;
+}
+
+.header-nav-fixed .header-search-box .search-close{
+	width: 60px;
+	background: #3D3C3A;
+	display: none;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #a8a7a6;
+	width: 8px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.header-nav-fixed .text-input.search{
+	height: 60px;
+	position: absolute;
+	right: 60px;
+	width: 8px;
+	display: none;
+	padding: 20px 4px;
+}
+
+.impersonate-fixed{
+	background: #022C42;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.impersonate-fixed span{
+	color: #FFF;
+	margin: 5px 0;
+	display: inline-block;
+}
+
+.impersonate-fixed .button.secondary{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#endSessionModal .modal-dialog .textarea{
+	width: 100%;
+}
+
+.pro-items > li{
+	list-style-type: none;
+	float: left;
+}
+
+.pro-items > li img{
+	max-width: 100%;
+}
+
+.pro-items .pro-title{
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.pro-items .pro-title a{
+	line-height: 23px;
+	display: inline-block;
+	color: #3D3C3A;
+}
+.pro-items .pro-title a:focus,
+.pro-items .pro-title a:hover{
+	color: #36BAE2;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	.header-nav {
+		background-color: #022C42;
+	}
+
+	.header-nav-fixed .container {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.nav-container-fixed {
+		padding-left: 0;
+	}
+
+	.header-nav-fixed .header-search-box {
+		margin-right: 0;
+	}
+
+	.nav-container-fixed > i:after {
+		right: 22px;
+	}
+
+	.nav-container {
+		margin-left: -20px;
+	}
+
+	.nav-container > ul > li > a {
+		padding: 0 20px;
+	}
+
+	.text-input.search {
+		width: 210px;
+	}
+
+	.sub-nav nav > ul > li a {
+		margin-left: -30px;
+		margin-right: 0;
+	}
+
+	.nav-container-fixed > nav {
+		padding-top: 20px;
+	}
+	
+	.nav-loops h5 {
+		font-size: 32px;
+		padding: 0;
+		margin-top: 5px;
+		line-height: 45px;
+	}
+
+	.pro-items .viewall a {
+		font-size: 14px;
+	}
+
+	.header-nav-fixed .text-input.search {
+		font-size: 20px;
+		padding-left: 20px;
+		font-family: TisaOT;
+	}
+}
+@media (max-width: 767px) and (min-width: 0px) {
+	.header-details-user {
+		margin-right: 0;
+	}
+	
+	.header-search-box {
+		margin-right: 0;
+	}
+	
+	#wrapper{
+		width: 768px;
+	}
+	#wrapper > main > .container{
+		padding-bottom: 60px;
+	}
+
+	.header-nav-fixed {
+		width: 768px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min--moz-device-pixel-ratio: 1.5), 
+screen and (min-device-pixel-ratio: 1.5) {
+	.header-details-user .myacct > a:after {
+		background-size: 32px 35px;
+		background-image: url(common/white-man@2x.png);
+		background-position: 0 0;
+	}
+
+	.header-details-user .myacct.active > a:after {
+		background-image: url(common/blue-man@2x.png);
+		background-position: 0 0;
+	}
+
+	.header-search-box fieldset .icon.i-search {
+		background-size: 22px 22px;
+		background-image: url(common/search@2x.png);
+		background-position: center center;
+	}
+
+	.header-details-user > ul > li.cart > a:after,
+	.header-nav-fixed .cart a:after {
+		background-size: 40px 38px;
+		background-image: url(common/cart@2x.png);
+		background-position: 0 0;
+	}
+
+	.nav-container-fixed > i:after,
+	.nav-container-fixed.non-hover:hover > i:after {
+		background-size: 26px 26px;
+		background-image: url(common/menu-white@2x.png);
+		background-position: 0 0;
+	}
+
+	.nav-container-fixed.non-hover.active:hover > i:after,
+	.nav-container-fixed.active > i:after {
+		background-size: 26px 26px;
+		background-image: url(common/menu-darkblue@2x.png);
+		background-position: 0 0;
+	}
+}
+
+.modal-open {
+	overflow: hidden;
+}
+
+.modal {
+	z-index: 1040;
+	display: none;
+	left: 0;
+	overflow-x: auto;
+	overflow-y: scroll;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.modal.upon {
+	z-index: 1052;
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity 0.15s linear 0s;
+}
+
+.fade.in {
+	opacity: 1;
+}
+
+.modal.fade .modal-dialog {
+	transform: translate(0px, -25%);
+	transition: transform 0.3s ease-out 0s;
+}
+
+.modal.in .modal-dialog {
+	transform: translate(0px, 0px);
+}
+
+.modal-dialog {
+	margin: 10% auto 0;
+	z-index: 1050;
+	position: relative;
+}
+
+.modal.upon .modal-dialog {
+	z-index: 1053;
+}
+
+.modal-content {
+	padding: 20px 30px 35px;
+	background-color: #FFFFFF;
+	position: relative;
+	outline: 0 none;
+}
+
+.modal-header {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.modal-header h1 {
+	font-size: 24px;
+	font-family: ProximaNovaCond-Bold;
+	border-bottom: 1px solid #e4e3e3;
+	padding-bottom: 10px;
+	color: #595454;
+}
+
+.modal-header .close {
+	position: absolute;
+	right: 0;
+	top: -5px;
+}
+
+.modal-body {
+	max-height: none;
+	overflow: visible;
+}
+
+.modal.modal-absolute {
+	position: absolute;
+	z-index: 950;
+}
+
+.modal .loading-mask {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	border-radius: 6px;
+}
+
+.modal-scrollbar-measure {
+	position: absolute;
+	top: -9999px;
+	width: 50px;
+	height: 50px;
+	overflow: scroll;
+}
+
+.modal-backdrop {
+	background-color: #000000;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1030;
+}
+
+.modal-backdrop.upon {
+	z-index: 1051;
+}
+
+.modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.modal-backdrop.fade.in {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+#validationModal .modal-dialog {
+	width: 730px;
+}
+
+#cancelModal .modal-dialog {
+	width: 605px;
+}
+
+#securityCodeModal .modal-dialog {
+	width: 540px;
+}
+
+#termConditions .modal-dialog{
+	width: 780px;
+}
+
+#endSessionModal .modal-dialog,
+#delListModal .modal-dialog,
+#checkDcAvilability .modal-dialog,
+#videoModal .modal-dialog,
+#retrunDocuments .modal-dialog {
+	width: 600px;
+}
+
+#returnInstructions .modal-dialog{
+	width: 840px;
+}
+
+#videoModal .modal-dialog .modal-body{
+	height: 400px;
+}
+
+#videoModal .modal-content{
+	padding: 25px;
+}
+
+#videoModal .i-close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#securityCodeModal .modal-dialog .modal-content{
+	padding: 20px 22px 35px;
+}
+
+#securityCodeModal .modal-header .close{
+	right: -10px;
+}
+
+.disscroll {
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Responsive */
+
+@media (min-width: 1200px) {
+		
+}
+
+@media (max-width: 979px) {
+
+	.modal-content {
+		padding: 20px 20px 30px;
+	}
+
+	#validationModal .modal-dialog {
+		/*width: 100%;*/
+	}
+
+	#quickViewModal .modal-dialog {
+		/*width:100%;*/
+	}
+}
+
+/*.loading-spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -12px 0 0 -12px;
+}
+/* Order Summary
+----------------------------------------------------------*/
+.summary-totals{
+	border: 1px #004469 solid;
+	padding: 8px;
+}
+
+.summary-totals.changed {
+	background-color: #fbefc5;
+}
+
+.summary-totals .price{
+	text-align: right;
+}
+
+.summary-totals .btn{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.summary-totals .sub-total,
+.summary-totals .order-total{
+	padding: 10px 0;
+	font-size: 18px;
+	font-family: ProximaNova-Bold;
+	margin: 0;
+}
+
+.summary-totals .sub-total + .block {
+	padding: 10px 10px 13px;
+}
+
+.summary-totals .order-total {
+	margin: 0;
+}
+
+.summary-totals .sub-total .price,
+.summary-totals .order-total .price{
+	font-size: 18px;
+}
+
+.summary-totals .block{
+	margin-bottom: 8px;
+	padding: 15px 10px;
+	background: #ededed;
+	position: relative;
+}
+
+.summary-totals.changed .block {
+	background-color: #eadfb9;
+}
+
+.summary-totals .block.first{
+	padding: 10px;
+}
+
+.summary-totals .select{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.summary-totals .select,
+.summary-totals .select select,
+.summary-totals .button{
+	width: 100%;
+}
+
+.summary-totals .order-total span{
+	line-height: 17px;
+	float: none;
+	padding: 0;
+}
+
+.summary-totals span.tips{
+	width: 85px;
+}
+
+.summary-totals .table-cell{
+	vertical-align: middle;
+}
+
+.summary-help-tip {
+	margin-left: -86px;
+}
+
+.summary-help-tip.popover:after {
+	right: 39px;
+}
+.pagination-bar {
+	padding: 22px 0;
+}
+
+.pagination-bar .display-desc {
+	float: left;
+}
+.pagination-bar .pagination {
+	float: right;
+}
+
+.pagination-bar + .tool-bar {
+	margin-top: 23px;
+}
+
+/* pagination */
+.pagination > .prev-icon,
+.pagination > .arrow-text,
+.pagination > .page-wrap,
+.pagination > .next-icon {
+	float: left;
+}
+
+.pagination > .prev-icon,
+.pagination > .arrow-text,
+.pagination > .next-icon {
+	background-color: #f8f8f8;
+}
+
+.pagination > .arrow-text {
+	padding: 0 6px;
+	margin-right: 10px;
+	font-family: ProximaNova-SemiBold;
+}
+.pagination > a.arrow-text:focus,
+.pagination > a.arrow-text:hover {
+	background-color: #36bae2;
+	color: #fff;
+}
+
+.pagination > .next-icon,
+.pagination > .prev-icon {
+	display: inline-block;
+	padding: 0 10px;
+	height: 20px;
+	position: relative;
+}
+
+.pagination > .prev-icon {
+	margin-right: 5px;
+}
+
+.pagination > .next-icon:after,
+.pagination > .prev-icon:after {
+	display: inline-block;
+	content: " ";
+	width: 8px;
+	height: 7px;
+	background-image: url("common/icon.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 6px;
+	top: 7px;
+}
+
+.pagination > .next-icon:after {
+	background-position: -128px -243px;
+}
+
+.pagination > .prev-icon:after {
+	background-position: -120px -243px;
+}
+.pagination > a.next-icon:focus,
+.pagination > a.prev-icon:focus,
+.pagination > a.next-icon:hover,
+.pagination > a.prev-icon:hover {
+	background-color: #36bae2;
+}
+.pagination > a.next-icon:focus:after,
+.pagination > a.next-icon:hover:after {
+	background-position: -140px -240px;
+}
+.pagination > a.prev-icon:focus:after,
+.pagination > a.prev-icon:hover:after {
+	background-position: -148px -240px;
+}
+
+.pagination > .page-wrap {
+	margin-right: 10px;
+}
+
+.pagination > .page-wrap > a {
+	color: #36bae2;
+	padding: 0 4px;
+}
+
+.pagination > .arrow-text,
+.pagination > .page-wrap > a.current {
+	color: #595454;
+}
+
+.pagination > .page-wrap > a.current {
+	cursor: default;
+}
+.popover{
+	width: 270px;
+	padding: 20px;
+	position: absolute;
+	background: #ededed;
+}
+
+.popover:after{
+	content: " ";
+	background-image: url(common/icon.png);
+	position: absolute;
+	bottom: -10px;
+	right: 125px;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: -157px -267px;
+	height: 10px;
+}
+
+.pop-tool-tip{
+	margin-top: 30px;
+	padding: 7px;
+	border: 1px solid #d0e693;
+	background-color: #ffffcc;
+	width: auto;
+	line-height: 1;
+	font-size: 14px;
+	font-family: ProximaNova-Semibold;
+	max-width: 200px;
+}
+/*
+1. Carousel
+	1.1 Carousel(Promo Carousel & Product Carousel)
+	1.2 Carousel button
+	1.3 Carousel pager
+	*/
+/* 1. Carousel
+============================================================================================*/
+
+/* 1.1 Carousel(Promo Carousel & Product Carousel)
+----------------------------------------------------------*/
+.carousel-content{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel-content > ul{
+	position: absolute;
+}
+
+/* 1.2 Carousel button
+----------------------------------------------------------*/
+.carousel-btn{
+	position: absolute;
+	top: 50px;
+	z-index: 30;
+	width: 100%;
+}
+
+.carousel-btn > a{
+	position: absolute;
+	width: 22px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(common/icon.png);
+	background-repeat: no-repeat;
+}
+
+.carousel-prev{
+	background-position: -165px -190px;
+	left: 15px;
+}
+
+.carousel-next{
+	background-position: -188px -190px;
+	right: 15px;
+}
+
+/*.carousel-prev:hover{
+	background-position: -211px -190px;
+}
+
+.carousel-next:hover{
+	background-position: -234px -190px;
+}*/
+
+.carousel-prev.disabled{
+	background-position: -257px -190px;
+	cursor: default;
+}
+
+.carousel-next.disabled{
+	background-position: -280px -190px;
+	cursor: default;
+}
+.promo {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.promo-content {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 4px 10px;
+}
+
+/* 1.5 Help Promo
+----------------------------------------------------*/
+.help-promo {
+	background: url("common/bg-need-help.png") no-repeat 0 0 #015581;
+	height: 200px;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.help-promo h3 {
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: ProximaNova-Bold;
+	text-transform: none;
+}
+
+.help-promo h3:first-child {
+	font-family: ProximaNova-Light;
+}
+
+.help-promo-content {
+	margin-bottom: 10px;
+    margin-top: 20px;
+	font-family: ProximaNova-Light;
+}
+
+.help-promo h4 {
+	font-family: ProximaNova-Bold;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+/* 1.6 Chat Promo
+---------------------------------------------------*/
+.chat-promo {
+	background: #36bae2;
+	height: 220px;
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.chat-promo img {
+	width: 100%;
+}
+
+.chat-promo h3 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: ProximaNovaCond-Bold;
+}
+
+.chat-promo-content {
+	bottom: 10px;
+    position: absolute;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/* 1.7 Become Member Promo
+--------------------------------------------------------*/
+.member-promo {
+	background: #00446b;
+	height: 270px;
+	width: 270px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	position: relative;
+}
+
+.member-promo h3 {
+	color: #FFFFFF;
+	font-family: ProximaNovaCond-Bold;
+	font-size: 24px;
+}
+
+.member-promo-content {
+	bottom: 0;
+	position: absolute;
+	padding: 15px 40px 15px 23px;
+	background-color: #00446B;
+}
+
+.member-promo-content p {
+	font-family: ProximaNova-Light;
+	font-size: 18px;
+	line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.member-promo-content a {
+	font-family: ProximaNova-Semibold;
+	color: #ffffff;
+	position: relative;
+}
+
+.member-promo-content a:after {
+	background: url("common/icon.png") no-repeat scroll -120px -188px rgba(0, 0, 0, 0);
+    content: "";
+    height: 16px;
+    position: absolute;
+    right: -30px;
+    top: 1px;
+    width: 16px;
+}
+
+/* Return Promo
+------------------------------------*/
+.return-promo {
+	background-color: #fff;
+	height: 220px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.return-promo-content h3 {
+	font-size: 20px;
+	line-height: 20px;
+	width: 65%;
+	margin-bottom: 5px
+}
+
+.return-promo-content {
+	background-color: #fff;
+	bottom: 30px;
+    position: absolute;
+}
+
+.return-promo-content p {
+	line-height: 13px;
+}
+
+.promo-1 {
+	height: 115px;
+}
+
+.promo-1 img {
+	display: block;
+	margin-left: 14px;
+}
+
+.promo-1 .promo-content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.promo.promo-last {
+	margin-bottom: 0;
+}
+
+.promo-2 .promo-content {
+	padding: 7px 15px;
+	color: #FFFFFF;
+}
+
+.promo-3 .promo-content {
+	color: #fff;
+	padding: 5px 10px 7px;
+}
+
+.video-img {
+	width: 300px;
+}
+@media (max-width: 1023px) and (min-width: 0px) {	
+	.member-promo {
+		height: 337px;
+		width: 229px;
+	}
+	.member-promo-content {	
+		padding: 15px 5px 30px 17px;
+	}
+	.promo-1 {
+		height: 140px;
+	}
+}
+#quickViewModal .modal-dialog {
+    width: 840px;
+}
+
+.quickview-nav {
+	position: absolute;
+	top: 44%;
+	height: 80px;
+	width: 60px;
+}
+.quickview-nav:focus,
+.quickview-nav:hover {
+	background-color: #36bae2;
+}
+
+.quickview-nav > i {
+	width: 22px;
+	height: 40px;
+	display: block;
+	background-image: url(common/icon.png);
+	background-repeat: no-repeat;
+	text-indent: -10000px;
+	margin: 20px auto;
+}
+
+.quickview-nav-prev {
+	left: -59px;
+}
+
+.quickview-nav-prev > i {
+	background-position: -165px -190px;
+}
+.quickview-nav-prev:focus > i,
+.quickview-nav-prev:hover > i {
+	background-position: -303px -190px;
+}
+
+.quickview-nav-prev.disabled > i {
+	background-position: -257px -190px;
+	cursor: default;
+}
+
+.quickview-nav-next {
+	right: -59px;
+}
+
+.quickview-nav-next > i {
+	background-position: -188px -190px;
+}
+.quickview-nav-next:focus > i,
+.quickview-nav-next:hover > i {
+	background-position: -326px -190px;
+}
+
+.quickview-nav-next.disabled > i {
+	background-position: -280px -190px;
+}
+.quickview-nav-prev.disabled:focus,
+.quickview-nav-next.disabled:focus,
+.quickview-nav-prev.disabled:hover,
+.quickview-nav-next.disabled:hover {
+	background-color: transparent;
+	cursor: default;
+}
+
+.quick-preview {
+	display: none;
+	width: 80px;
+	height: 80px;
+	line-height: 60px;
+	text-align: center;
+	border: 10px solid #e4e3e3;
+	position: absolute;
+}
+
+.quick-preview img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.quick-preview:after {
+	background: transparent;
+	border-color: #E4E3E3 transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+	bottom: -30px;
+	content: " ";
+	height: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 18px;
+	width: 0;
+}
+
+#quickViewModal .brand-logo {
+	margin-top: 10px;
+}
+
+#quickViewModal .brand-logo img {
+	max-height: 50px;
+}
+
+#quickViewModal .brand-logo span {
+	line-height: 20px;
+	padding: 15px 0;
+	display: inline-block;
+}
+
+#quickViewModal .pro-img{
+	padding-top: 10px;
+}
+
+#quickViewModal .pro-img .hero-img {
+	text-align: center;
+	line-height: 220px;
+	height: 220px;
+	width: 220px;
+}
+
+#quickViewModal .pro-img .hero-img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#quickViewModal .pro-block {
+	width: 240px;
+	padding-right: 0;
+}
+
+#quickViewModal .des-block {
+	width: 560px;
+}
+
+#quickViewModal .button-box .tipmsg{
+	padding-top: 10px;
+	color: #93bb02;
+	font-family: ProximaNova-Semibold;
+	height: 40px;
+	display: none;
+	padding-left: 45px;
+	position: relative;
+	font-size: 16px;
+	float: left;
+	width: 260px;
+	margin-right: 20px;
+	line-height: 17px;
+}
+
+#quickViewModal .button-box .tipmsg:after {
+	background: url("common/icon.png") no-repeat scroll -241px -247px;
+	content: "";
+	height: 18px;
+	left: 15px;
+	position: absolute;
+	top: 9px;
+	width: 18px;
+}
+
+#quickViewModal .thumb-img {
+	padding-top: 5px;
+	margin-right: -10px;
+}
+
+#quickViewModal .thumb-img li {
+	float: left;
+	list-style-type: none;
+	margin-right: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+
+#quickViewModal .thumb-img li img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#quickViewModal .pro-badges {
+    font-size: 0;
+    padding-top: 20px;
+    border-top: none;
+    margin-top: 0;
+}
+
+#quickViewModal .pro-badges .icon {
+	margin-right: 9px;
+}
+
+#quickViewModal .product-info {
+	border-bottom: 1px solid #CCCCCC;
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+
+#quickViewModal .pro-name {
+	color: #00446A;
+	font-family: ProximaNova-Bold;
+	font-size: 18px;
+}
+
+#quickViewModal .pro-id {
+	padding-top: 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e4e3e3;
+}
+
+#quickViewModal .color-selecter {
+	margin-top: 0;
+	border-bottom: 0;
+}
+
+#quickViewModal .color-selecter a.active {
+    border-width: 3px
+}
+
+#quickViewModal .select-label {
+	color: #00446A;
+	font-family: ProximaNova-bold;
+	padding: 15px 0 7px;
+	text-transform: uppercase;
+}
+
+#quickViewModal .color-list {
+	font-size: 0;
+	margin-bottom: 0px;
+	margin-right: -30px;
+}
+
+#quickViewModal .color-selecter a {
+	border: 1px solid #857F7F;
+	display: inline-block;
+	height: 23px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+	width: 45px;
+	overflow: hidden;
+}
+
+#quickViewModal .ps-error.color-list a {
+	border: 1px solid #ff0000;
+}
+
+#quickViewModal .color-selecter a img{
+    height: 21px;
+    width: 43px;
+    max-width: none;
+    vertical-align: top;
+}
+
+#quickViewModal .color-selecter a.active img{
+    height: 17px;
+    width: 39px;
+}
+
+#quickViewModal .pro-description {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#quickViewModal .pro-description .bd {
+	/* max-height: 98px;
+	max-height: 95px\9; 
+	overflow-y: hidden; */
+	text-overflow: ellipsis;
+}
+
+#quickViewModal .pro-description.mutiple {
+	border-top: 0;    
+	margin-bottom: 15px;
+	max-height: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 5px;
+}
+
+#quickViewModal .pro-description.mutiple li {
+	float: left;
+	width: 40%;
+}
+
+#quickViewModal .sku-list {
+	border-bottom: 0;
+	margin-top: 20px;
+}
+
+#quickViewModal .sku-list .sku-list-inner {
+	max-height: 180px;
+	overflow: hidden;
+}
+
+#quickViewModal .button-box {
+	padding-bottom: 0;
+	margin-top: 30px;
+	font-size: 0;
+	margin-right: -20px;
+	padding-left: 0;
+}
+
+#quickViewModal .button-box .button {
+	margin-right: 20px;
+	width: 260px;
+	margin-bottom: 0;
+	display: inline-block;
+	font-size: 18px !important;
+	height: 45px;
+}
+
+#quickViewModal .pro-description .name {
+	color: #00446A;
+	font-family: ProximaNova-bold;
+	line-height: 1;
+	text-transform: uppercase;
+	padding-top: 15px;
+	margin-bottom: 13px;
+}
+
+#quickViewModal .pro-description li {
+	list-style-position: inherit;
+	list-style-type: circle;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+
+#quickViewModal .total-qty {
+	border-bottom: none;
+	padding: 18px 20px 20px 0;
+}
+
+#quickViewModal .total-qty .available {
+	color: #FAA519;
+}
+
+#quickViewModal .total-qty .text-input {
+	border-color: #857F7F;
+	margin-right: 20px;
+	text-align: center;
+	width: 80px;
+}
+
+#quickViewModal .total-qty .name {
+	color: #00446A;
+	font-family: ProximaNova-bold;
+	line-height: 1;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+#quickViewModal .total-price {
+	margin: 0 0 35px;
+	padding: 0;
+}
+
+#quickViewModal .total-content {
+	margin-top: 0;
+}
+
+#quickViewModal .total-content .total-disabled {
+	padding: 10px;
+	background: #feedd3;
+	color: #fba51c;
+	font-family: ProximaNova-SemiBold;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#quickViewModal .total-content .tipmsg {
+	color: #93BB02;
+	display: none;
+	font-family: ProximaNova-Semibold;
+	line-height: 18px;
+	margin: 5px 0 20px;
+	padding-left: 30px;
+	padding-top: 10px;
+	position: relative;
+}
+
+#quickViewModal .total-content .tipmsg:after {
+	background: url("common/icon.png") no-repeat scroll -241px -247px #fff;
+	content: "";
+	height: 18px;
+	left: 0px;
+	position: absolute;
+	top: 9px;
+	width: 18px;
+}
+
+#quickViewModal .total-button .button {
+	font-size: 18px !important;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+#quickViewModal .sku-list ul li {
+	list-style-type: none;
+	padding: 12px 10px 10px;
+	display: table-cell;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+#quickViewModal .sku-list ul.list-header li.sl-size, 
+#quickViewModal .sku-list ul.list-header li.sl-sku, 
+#quickViewModal .sku-list ul.list-header li.sl-qty, 
+#quickViewModal .sku-list ul.list-header li.sl-price {
+	font-size: 16px;
+}
+
+#quickViewModal .list-header li {
+	padding: 8px 10px;
+}
+
+#quickViewModal .sl-size {
+	width: 25%;
+}
+
+#quickViewModal .sku-list ul li.sl-qty {
+	width: 14%;
+	text-align: center;
+}
+
+#quickViewModal .sku-list ul li span, 
+#quickViewModal .sku-list ul li a {
+	line-height: 1;
+	padding: 2px 0;
+	display: inline-block;
+}
+
+#quickViewModal .sku-list ul li .text-input {
+	width: 60px;
+	text-align: center;
+}
+
+#quickViewModal .sku-list ul li.sl-price {
+	font-size: 22px;
+	font-family: ProximaNova-Bold;
+	width: 23%;
+	text-align: right;
+}
+
+#quickViewModal .sku-list .sl-sku {
+	padding-left: 20px;
+	width: 26%;
+}
+
+#quickViewModal .sku-list ul li a {
+	font-size: 18px;
+	font-family: ProximaNova-Bold;
+}
+
+#quickViewModal .sbar-cov {
+	background-color: #ddd;
+}
+
+#quickViewModal .sku-list ul {
+	display: table;
+	width: 100%;
+}
+
+#quickViewModal .sku-list .list-header {
+	margin-bottom: 1px;
+	background: none repeat scroll 0 0 #E4E3E3;
+	font-family: ProximaNova-Bold;
+}
+
+#quickViewModal .sku-list .signle-row {
+	background: none repeat scroll 0 0 #F8F8F8;
+}
+
+#quickViewModal .sku-list .active-row{
+	background: #f8f8d0;
+}
+
+#quickViewModal .sku-list .error-row {
+	background: none repeat scroll 0 0 #FDE6E7;
+}
+
+#quickViewModal .sku-list .warn-row {
+	background: none repeat scroll 0 0 #FEEDD3;
+}
+
+#quickViewModal .tab-caption {
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	line-height: 1;
+	padding-bottom: 15px;
+	padding-left: 30%;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0;
+}
+
+#quickViewModal .tab-caption.error-row {
+	color: #ED1C24;
+}
+
+#quickViewModal .tab-caption.warn-row {
+	color: #FAA519;
+}
+
+#quickViewModal .total-qty.error{
+	margin: 10px 0 10px -10px;
+	padding: 10px;
+	border: 0;
+	background: #fde6e7;
+}
+
+#quickViewModal .total-qty.error .text-input {
+	border-color: red;
+	color: red;
+}
+
+#quickViewModal .check-dc{
+	padding: 0px 0 0px;
+	margin-bottom: -5px;
+	line-height: 1;
+}
+
+#quickViewModal .sku-list .check-dc {
+	padding-top: 0px;
+}
+
+#quickViewModal .check-dc .inline-error{
+	margin: 0;
+}
+
+#quickViewModal .size-selector .select{
+	display: block;
+}
+
+#quickViewModal .sku-list-disabled{
+	background: #FEEDD3;
+	text-align: center;
+	padding: 11px;
+	margin: 5px 0 -10px;
+	font-family: ProximaNova-semiBold;
+	color: #faa519;
+}
+
+.popover-tool-tip{
+	margin-top: 30px;
+	padding: 7px;
+	border: 1px solid #d0e693;
+	background-color: #ffffcc;
+	width: auto;
+	line-height: 1;
+	font-size: 14px;
+	font-family: ProximaNova-Semibold;
+	z-index: 1041;
+	max-width: 200px;
+}
+
+.popover-add-to-wishlist{
+	width: 240px;
+	z-index: 1041;
+	margin-top: 20px;
+}
+
+.popover-add-to-wishlist:after {
+	right: 188px;
+}
+
+.popover-tool-tip:after{
+	right: 230px;
+	display: none;
+}
+@media (max-width: 1023px) and (min-width: 0px) {
+	#quickViewModal .modal-dialog {
+		width: 640px;
+	}
+
+	#quickViewModal .pro-block {
+		width: 165px;
+	}
+
+	#quickViewModal .des-block {
+		width: 455px;
+	}
+
+	#quickViewModal .pro-img .hero-img {
+		width: 155px;
+		height: 155px;
+		line-height: 155px;
+	}
+
+	#quickViewModal .modal-header {
+		margin-bottom: 10px;
+	}
+
+	#quickViewModal .thumb-img li {
+		margin-right: 8px;
+	}
+
+	#quickViewModal .thumb-img {
+		margin-right: -8px;
+	}
+
+	#quickViewModal .button-box .button {
+		width: 200px;
+	}
+
+	#quickViewModal .button-box .tipmsg {
+		width: 200px;
+	}
+
+	.popover-add-to-wishlist:after {
+		right: 120px;
+	}
+
+	#quickViewModal .sku-list .sku-list-inner {
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	#quickViewModal .sku-list .sku-list-inner::-webkit-scrollbar { 
+		width: 3px; 
+	}
+
+	#quickViewModal .sku-list .sku-list-inner::-webkit-scrollbar-thumb { 
+		background: rgba(111, 111, 111, 0.8);
+	}
+	
+	#quickViewModal .sku-list .sku-list-inner::-webkit-scrollbar-thumb:window-inactive { 
+		background: rgba(111, 111, 111, 0.4); 
+	}
+
+	#quickViewModal .sl-size,
+	#quickViewModal .sku-list ul li.sl-qty,
+	#quickViewModal .sku-list ul li.sl-price {
+		width: 33.33%;
+	}
+}
+.dis-scroll {
+	position: relative;
+}
+.sbar-cov {
+	position:absolute; 
+	right: 0; 
+	width: 10px; 
+	z-index: 130;
+}
+
+.sbar-cov .sbar-bg {
+	position: absolute; 
+	width: 10px;
+}
+.sbar-cov .sbar-button{
+	position: relative; 
+	background: #857f7f;
+	border-left: 1px solid #d0cdcc;
+	border-right: 1px solid #d0cdcc;
+}
+/**
+ * typeahead css style
+ * 
+ */
+
+.header-nav-fixed .type-ahead {
+	right: 120px;
+	top: 60px;
+}
+
+.header-nav .type-ahead {
+	top: 30px;
+	left: 0;
+}
+
+.type-ahead {
+	position: absolute;
+	padding-bottom: 20px;
+	background-color: #f9f8f6;
+	display: none;
+}
+
+.type-ahead .ta-result-list,
+.type-ahead .ta-product-list,
+.type-ahead .ta-video-list {
+	list-style: none;
+	width: 100%;
+}
+
+.type-ahead .ta-product-list,
+.type-ahead .ta-article-box,
+.type-ahead .ta-video-box {
+	border-top: 1px solid #dedddb;
+}
+
+.type-ahead .ta-product-list {
+	margin-top: 10px; 
+	padding: 0 20px;
+}
+
+.type-ahead .ta-result-list .ta-result-item {
+	padding: 6px 0 6px 20px;
+}
+
+.type-ahead .ta-result-list .ta-result-item.hover {
+	background-color: #36BAE1;
+
+}
+
+.type-ahead .ta-result-list .ta-result-item.hover > a { 
+	color: #fff;
+}
+
+.type-ahead .ta-result-list a {
+	display: block;
+	font-family: ProximaNova-Regular;
+	color: #595554;
+}
+
+.type-ahead img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.ta-product-list .ta-product-item {
+	width: 100%;
+	display: table;
+	margin-top: 20px;
+}
+
+.ta-product-list .ta-product-item .left-img-cell,
+.ta-product-list .ta-product-item .right-name-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ta-product-list .ta-product-item .left-img-cell {
+	width: 20%;
+}
+
+.ta-product-list .ta-product-item .left-img-cell a{
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	width: 60px;
+}
+
+.ta-product-list .ta-product-item .right-name-cell {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.2;
+}
+
+.ta-product-list .ta-product-item .right-name-cell .name {
+	height: 40px;
+	overflow: hidden;
+}
+
+.type-ahead .ta-article-box {
+	margin-top: 20px; 
+	padding: 0 20px;
+}
+
+.ta-article-box .taa-title,
+.ta-video-box .tav-title {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	line-height: 1;
+	font-family: ProximaNova-Bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.ta-article-box .ta-article-list {
+	padding-left: 20px;
+	padding-top: 5px;
+	list-style-type: circle;
+}
+
+.ta-article-list .ta-article-item {
+	margin-bottom: 15px;
+	line-height: 1.2;
+}
+
+.ta-article-list .ta-article-item .imgbox{
+	display: block;
+	height:60px;
+	width: 60px;
+	text-align: center;
+}
+
+.type-ahead .ta-video-box {
+	margin: 15px 0; 
+	padding: 0 20px;
+}
+
+.ta-video-list .ta-video-item {
+	float: left;
+	width: 50%;
+	padding-right: 10px;
+}
+
+.ta-video-list .ta-video-item .imgbox{
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	width: 80px;
+	text-align: center;
+}
+
+.ta-video-list .ta-video-item .video-name {
+	padding-top: 7px;
+	line-height: 1.2;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+	.ta-product-list .ta-product-item .right-name-cell {
+		padding-left: 10px;
+		padding-right: 0;
+	}
+
+	.ta-product-list .ta-product-item .left-img-cell {
+		width: 40%;
+	}
+
+	.ta-product-list .ta-product-item .right-name-cell a,
+	.ta-article-list .ta-article-item a,
+	.ta-video-list .ta-video-item a {
+		font-size: 13px;
+	}
+
+	.ta-video-list .ta-video-item {
+		padding-right: 5px;
+	}
+}
+/* Wish list*/
+#wishListModal .modal-dialog {
+	width: 700px;
+}
+
+#wishListModal.confirm .modal-dialog {
+    width: 540px;
+}
+
+#wishListModal .wishlist-inner {
+	margin-top: 30px;
+}
+
+#wishListModal .wishlist-inner .inline-error{
+	margin-bottom: 5px;
+	margin-top: -22px;
+}
+
+#wishListModal .h-line {
+	border-top: 1px solid #e3e3e3;
+	margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#wishListModal .line-text {
+	background-color: #FFFFFF;
+    color: #03324C;
+    display: block;
+    font-family: ProximaNova-Bold;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    text-align: center;
+    top: -10px;
+    width: 40px;
+}
+
+#wishListModal .pro-name {
+    color: #00446A;
+    font-family: ProximaNova-Bold;
+    font-size: 20px;
+    line-height: 0.95
+}
+
+#wishListModal .pro-id {
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+#wishListModal .form-actions {
+    margin-top: 73px;
+}
+
+#wishListModal .form-actions .button.primary {
+    margin-bottom: 15px;
+}
+
+#wishListModal .pro-img{
+	padding-top: 0;
+	margin-top: -10px;
+}
+
+#wishListModal .pro-img .hero-img {
+    padding: 0;
+    height: 220px;
+    width: 220px;
+    margin: 0 auto;
+}
+
+#wishListModal .hero-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.wishlist-inner-login {
+    padding-top: 10px;
+}
+
+.wishlist-inner-login .form-group {
+    padding-left: 0;
+}
+
+.wishlist-inner-login .wlm-register-box {
+    margin-left: 25px;
+    padding: 30px 25px;
+    background-color: #36bae2;
+}
+
+.wlm-register-box .wlmr-title {
+    font-family: ProximaNova-Bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.wlm-register-box .wlmr-cont {
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.wlm-register-box .wlmr-register-btn {
+    padding-top: 14px;
+} 
+
+.wlm-register-box .wlmr-register-btn .button {
+    width: 100%;
+    font-family: ProximaNova-Bold;
+    color: #fff;
+    text-transform: uppercase;
+    height: 45px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.wlm-register-box .wlmr-register-btn .button:focus,
+.wlm-register-box .wlmr-register-btn .button:hover {
+    background: #D8E8F5;
+    color: #00415C;
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+    #wishListModal .modal-dialog {
+        width: 640px;
+    }
+
+    .wishlist-inner-login .wlm-register-box {
+        text-align: center;
+    }
+}
+/*.zoomPad{
+	position:relative;
+	float:left;
+	z-index:102;
+	cursor:crosshair;
+	width: 100%;
+}
+
+.zoomPreload{
+   -moz-opacity:0.8;
+   opacity: 0.8;
+   filter: alpha(opacity = 80);
+   color: #333;
+   font-size: 12px;
+   font-family: Tahoma;
+   text-decoration: none;
+   border: 1px solid #CCC;
+   background-color: white;
+   padding: 8px;
+   text-align:center;
+   background-image: url(common/zoomloader.gif);
+   background-repeat: no-repeat;
+   background-position: 43px 30px;
+   z-index:110;
+   width:110px;
+   height:60px;
+   position:absolute;
+   top:0px;
+   left:0px;
+    * width:100px;
+    * height:49px;
+}
+
+
+.zoomPup{
+	overflow:hidden;
+	background-color: #36bae2;
+	-moz-opacity:0.66;
+	opacity: 0.66;
+	filter: alpha(opacity = 66);
+	z-index:120;
+	position:absolute;
+	z-index:101;
+	cursor:crosshair;
+}
+
+.zoomOverlay{
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#FFF;	
+	z-index:5000;
+	width:100%;
+	height:100%;
+	display:none;
+	z-index:101;
+}
+
+.zoomWindow{
+	position:absolute;
+	left:110%;
+	top:40px;
+	background:#FFF;
+	z-index:6000;
+	height:auto;
+	z-index:10000;
+	z-index:110;
+}
+.zoomWrapper{
+	position:relative;
+	border:1px solid #3d3c3a;
+	z-index:110;
+}
+.zoomWrapperTitle{
+	display:block;
+	background:#999;
+	color:#FFF;
+	height:18px;
+	line-height:18px;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	font-size:10px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:120;
+	-moz-opacity:0.6;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+}
+.zoomWrapperImage{
+	display:block;
+	position:relative;
+	overflow:hidden;
+	z-index:110;
+
+}
+.zoomWrapperImage img{
+	border:0px;
+	display:block;
+	position:absolute;
+	z-index:101;
+	max-width: none;	
+}
+
+.zoomIframe{
+	z-index: -1;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+	position:absolute;
+	display:block;
+}*/
+
+/*********************************************************
+/ When clicking on thumbs jqzoom will add the class
+/ "zoomThumbActive" on the anchor selected
+/*********************************************************/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+html{
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body{
+	font-family: ProximaNova-Regular, Arial;
+	background: #fff;
+	color: #595454;
+	font-size: 16px;
+}
+
+fieldset, abbr, acronym{
+	border: 0;
+}
+
+caption, th{
+	text-align: left;
+}
+
+iframe{
+	border: none;
+}
+
+img{
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section{
+	display: block;
+}
+
+audio, canvas, video{
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1;
+}
+
+audio:not([controls]), [hidden], hide{
+	display: none;
+}
+
+strong, b{
+	font-family: ProximaNova-Bold, "Arial Bold";
+	font-weight: normal;
+}
+
+#wrapper{
+	border-top: 460px #00446b solid;
+}
+
+#wrapper > header{
+	margin-top: -460px;
+}
+
+#wrapper.marketing{
+ border-top: 460px #00446B solid;
+}
+
+#wrapper.marketing > header{
+ margin-top: -460px;
+}
+
+#wrapper > main > .container {
+	background: #ffffff;
+	min-height: 320px;
+	padding-bottom: 100px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	#wrapper {
+		border-top: 0;
+	}
+
+	#wrapper > header {
+		border-top: none;
+		margin-top: 0;
+		background-color: #00446b;
+	}
+
+	#wrapper > main > .container {
+		padding-bottom: 60px;
+	}
+}
